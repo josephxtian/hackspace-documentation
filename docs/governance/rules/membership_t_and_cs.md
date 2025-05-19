@@ -8,7 +8,7 @@ Manchester Hackspace, Hackspace Manchester, HACMan, Hackspace and Hacman are all
 
 1.1 Manchester Hackspace is a not-for-profit members club.
 
-1.2 By becoming a member of Manchester Hackspace, you agree to be liable for a maximum of up to £1 (GBP) in the event of Manchester Makers Ltd becoming insolvent.
+1.2 By becoming a member of Manchester Hackspace, you agree to be bound by the company's articles of association (the latest copy of which can be found on [Companies House](https://find-and-update.company-information.service.gov.uk/company/08012547)), in addition to these terms and conditions, our rules and our policies.
 
 1.3 By law, you must provide your legal name and an address you can be contacted at during sign up. You are also legally obligated to keep these up to date while you hold membership, and inform us of any changes to your contact address for a period of ten years after your membership ends.
 
@@ -18,7 +18,7 @@ Manchester Hackspace, Hackspace Manchester, HACMan, Hackspace and Hacman are all
 
 2.1.1 Where you are offered a reduced rate subscription for extenuating circumstances, you agree to increase your subscription to regular levels when you are financially able.
 
-2.1.2 Where you are using the space for business purposes (e.g. making goods for sale, using the space to do work, researching and developing products), you agree to increase your subscription proportionally to the value you gain from hackspace.
+2.1.2 Where you join the organisation for business purposes (e.g. making goods for sale, using the space to do work, researching and developing products), you agree to increase your subscription proportionally to the value you gain from hackspace.
 
 2.2 The membership subscription is non-refundable.  
 
