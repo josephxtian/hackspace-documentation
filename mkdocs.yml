@@ -25,7 +25,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: introduction.md
+  - Getting Started: getting_started/introduction.md
   - Emergency Info: emergency_procedure.md
 
 plugins:
