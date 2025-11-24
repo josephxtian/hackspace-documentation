@@ -22,9 +22,7 @@ theme:
       toggle:
         icon: material/brightness-2
         name: Switch to light mode
-  custom_dir: 'theme'
-  features:
-    - tabs
+
 
 plugins:
   - search
