@@ -23,6 +23,10 @@ theme:
         icon: material/brightness-2
         name: Switch to light mode
 
+nav:
+  - Home: index.md
+  - Getting Started: introduction.md
+  - Emergency Info: emergency_procedure.md
 
 plugins:
   - search
