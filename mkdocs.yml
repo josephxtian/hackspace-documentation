@@ -30,11 +30,6 @@ theme:
     - toc.follow # side-bar keeps up with current location
     - navigation.top # 'back to top' button
 
-nav:
-  - Home: index.md
-  - Getting Started: getting_started/introduction.md
-  - Emergency Info: emergency_procedure.md
-
 plugins:
   - search # Allows searching through documentation
   - emailprotect # protects email addresses from bots
