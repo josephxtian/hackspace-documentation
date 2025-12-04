@@ -22,6 +22,13 @@ theme:
       toggle:
         icon: material/brightness-2
         name: Switch to light mode
+  features:
+    - navigation.instant # better loading of internal links
+    - navigation.tabs # top-level sections appear in menu header
+    - navigation.path # show path at top of page
+    - navigation.indexes # allows overview page for each section
+    - toc.follow # side-bar keeps up with current location
+    - navigation.top # 'back to top' button
 
 nav:
   - Home: index.md
@@ -29,10 +36,10 @@ nav:
   - Emergency Info: emergency_procedure.md
 
 plugins:
-  - search
-  - emailprotect
-  - mkdocs-video
-  - awesome-nav
+  - search # Allows searching through documentation
+  - emailprotect # protects email addresses from bots
+  - mkdocs-video # allows video embedding in docs
+  - awesome-nav # easy page navigation design
   - git-revision-date-localized
   - redirects:
       redirect_maps:
