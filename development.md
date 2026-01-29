@@ -60,17 +60,6 @@ This puts the top level menu across the top
 
 Look into any other plugins that might be of use
 
-### Colors
-
-The material theme has some options for the colors, should we use more of a yellow theme?
-
-https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
-
-```
-  palette:
-    primary: 'Teal'
-    accent: 'Amber'
-```
 
 ### Icons
 

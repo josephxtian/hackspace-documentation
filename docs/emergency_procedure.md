@@ -14,7 +14,7 @@ First aid equipment, including a burns kit and eye wash, are located in the kitc
 
 If someone suffers a life-threatening illness or injury, call 999 and ask for Ambulance. You will be connected to [North West Ambulance Service](https://www.nwas.nhs.uk) (NWAS), who will ask questions about the person and their condition, and tell you what to do next.
 
-However, if their condition is not life-threatening, you can call [NHS 111](tel:+44111) or visit [111 online](111.nhs.uk).
+However, if their condition is not life-threatening, you can call [NHS 111](tel:+44111) or visit [111 online](https://111.nhs.uk).
 
 Once the person is receiving care, please record the incident in the accident report book in the kitchen.
 
