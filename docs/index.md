@@ -1,25 +1,33 @@
-Home
-====
-
 ![edit](images/space.jpg)
 
-Welcome to the Manchester Hackspace Wiki Site!
-Here you will find a lot of the information you need to get making in our community.
+# Welcome to Manchester Hackspace's Wiki Docs
 
-Like any wiki, this works better when we all make an effort to keep it current, so if you find that something isn't how it is described here, please update the wiki where you can via our [GitHub](https://docs.hacman.org.uk/adding_documentation/), or type up the changes and email it to board@hacman.org.uk and we'll update it for you.
+Please help us keep this wiki current by suggesting edits to out of date information. This can either be done via [GitHub](https://docs.hacman.org.uk/adding_documentation/) or by [emailing us](mailto:digital@hacman.org.uk?subject=Proposed%20Docs%20Update&body=Please%20include%20a%20link%20to%20the%20page%2C%20and%20your%20suggested%20text%20update.).
 
-Quick links
------------
+<div class="grid cards" markdown>
 
-| New Members | How Things Work | Areas
-| ----------- | --------------- | ----- |
-| [Visit & Join Us](https://hacman.org.uk/visit-us) | [Rules](https://docs.hacman.org.uk/governance/rules/) | [Metalwork](https://docs.hacman.org.uk/equipment/metalwork) |
-| [Getting Started](https://docs.hacman.org.uk/getting_started/) | [Storage Rules](https://docs.hacman.org.uk/governance/rules/member_storage/) | [Woodwork](https://docs.hacman.org.uk/equipment/woodwork/) |
-|  | [Purchase Proposals](https://docs.hacman.org.uk/membership/buying_stuff/)  | [Visual Arts](https://docs.hacman.org.uk/equipment/visual_arts/) |
-|  | [Consumables List](https://docs.google.com/spreadsheets/d/1AOO55t0vs3c4PiPQu42w1USbfekBcNd9CSx9lppWmmY/edit?usp=sharing) | [Welding](https://docs.hacman.org.uk/equipment/welding/) |
-|  |  | [3D Printing](https://docs.hacman.org.uk/equipment/3d_printers/) |
-|  |  | [Electronics](https://docs.hacman.org.uk/equipment/electronics/) |
-|  |  | [CNC](https://docs.hacman.org.uk/equipment/cnc/) |
+-   :material-account-star:{ .lg .middle } __New to Hackspace?__
+    ---
+    A brief run-down of what you need to know to get started at Hackspace.
+    [:octicons-arrow-right-24: Getting Started](docs\01_getting_started\introduction.md)
 
-## Contribute to the docs
-[Add and Update this documentation](https://docs.hacman.org.uk/adding_documentation/)
+-   :material-gavel:{ .lg .middle } __How Things Work__
+    ---
+    The "Manual" for the space. Storage rules, guest policies, and how to use tools.
+    [:octicons-arrow-right-24: The Rules](docs\02_rules\index.md)
+
+-   :material-scale-balance:{ .lg .middle } __The Legal Stuff__
+    ---
+    Our T&Cs, Articles of Association, Membership Agreement, and Governance Docs.
+    [:octicons-arrow-right-24: Governance](docs\05_governance\constitution.md)
+
+</div>
+
+---
+
+### Quick Links
+* [:material-account-multiple-plus-outline: **Visit & Join Us**](https://hacman.org.uk/visit-us)
+* [:material-alert-octagon: **Report a Broken Tool**](05-procedures/reporting-an-issue.md)
+* [:material-tools: **Browse Workshop Areas**](03-workshops/index.md)
+* [:material-currency-gbp: **Membership Dues**](04-governance/finance-policy.md)
+* [:material-lead-pencil: **Add and Update this documentation**](docs\adding_documentation.md)
