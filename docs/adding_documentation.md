@@ -31,9 +31,20 @@ Use this browser tool to convert short videos to .webp files.
 
 Videos can be inserted with the following html string. Global css styling is applied for the `video-container` class. This can be seen in the `extra.css` file.
 
+For web links
 ```html
 <div class="video-container">
   <iframe src="https://youtube.com" allowfullscreen></iframe>
+</div>
+```
+
+For locally hosted videos
+```html
+<div class="video-container">
+  <video controls>
+    <source src="../your_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 ```
 

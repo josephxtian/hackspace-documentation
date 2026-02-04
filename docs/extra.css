@@ -4,11 +4,13 @@
 }
 
 /* Center video containers and set the 80% width */
-.video-container {
+.video-container video,
+.video-container iframe {
     width: 95%;
 }
 
 /* Style video frame */
+.video-container video,
 .video-container iframe {
     width: 100%;
     aspect-ratio: 16 / 9; /* Maintains the widescreen look */

@@ -75,7 +75,9 @@ With manufactured boards, the grain may be in both directions (as with plywood),
 The rip fence should be on the table saw when you come to use it and, if you remove it, you should put it back when you're tidying up after use. To position it, you simply pull the levers upwards and slide it closer or further away from the blade.
 
 <div class="video-container">
-  <iframe src="ripguide.mp4" allowfullscreen></iframe>
+  <video controls>
+    <source src="../ripguide.mp4" type="video/mp4">
+  </video>
 </div>
 
 To secure it, first push down this lever:
@@ -113,7 +115,9 @@ and engaged...
 This is how the fence slides:
 
 <div class="video-container">
-  <iframe src="crosscut_sled_roll.mp4" allowfullscreen></iframe>
+  <video controls>
+    <source src="../crosscut_sled_roll.mp4" type="video/mp4">
+  </video>
 </div>
 
 ### Starting/stopping the saw
