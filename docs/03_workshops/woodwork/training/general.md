@@ -116,16 +116,11 @@ Moisturiser-like product that products against irritation when coming in contact
 Faults
 ------
 
-/// admonition | Fixing faults yourself
-	type: warning
-If you think you could fix a fault don't try before speaking to the [wood area coordinator](../index.md#contact). If you don't receive a response do not assume you can go ahead.
-///
+!!! warning "Fixing faults yourself"
+    If you think you could fix a fault don't try before speaking to the [wood area coordinator](../index.md#contact). If you don't receive a response do not assume you can go ahead.
 
-/// details | Becoming a maintainer
-	type: tip
-Calibration is done by the wood team. The wood team maintainers are volunteers. If you are practically minded and believe this is something you could do, feel free to reach out to the coordinator and ask if you can help. However, do not adjust anything without speaking to the [wood area coordinator](../index.md#contact) first, as not knowing who has touched what makes their job much more difficult as well as leading to health and safety risks and damaged equipment.
-///
-
+!!! tip "Becoming a maintainer"
+    Calibration is done by the wood team. The wood team maintainers are volunteers. If you are practically minded and believe this is something you could do, feel free to reach out to the coordinator and ask if you can help. However, do not adjust anything without speaking to the [wood area coordinator](../index.md#contact) first, as not knowing who has touched what makes their job much more difficult as well as leading to health and safety risks and damaged equipment.
 
 1.	Only adjust angle controls etc. as an ordinary user
 2.	Use report signs with QR codes around the space to report faults, or post on telegram

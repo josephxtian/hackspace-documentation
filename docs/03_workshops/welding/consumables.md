@@ -17,11 +17,8 @@ If in doubt check with the welding area co-ordinator before buying.
 
 ## Grinding
 
-/// admonition | Note
-    type: note
-
-Hackspace Manchester doesn't provide grinding consumables, so you are free to bring your own discs, however they <strong>MUST BE 115MM discs</strong> and suitable for the task at hand.
-///
+!!! note
+    Hackspace Manchester doesn't provide grinding consumables, so you are free to bring your own discs, however they <strong>MUST BE 115MM discs</strong> and suitable for the task at hand.
 
 The following is a list of recommended discs for grinding and cutting:
 

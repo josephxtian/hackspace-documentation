@@ -83,8 +83,5 @@ With the below this is actually a block of wood with some welding wire running t
 Plating is not something I have not tried myself
 Also you may need a current controlled supply from the electronics area for better control.
 
-/// admonition | Important
-    type: warning
-
-I would strongly suggest to avoid anything involving strong acids
-///
+!!! warning
+    I would strongly suggest to avoid anything involving strong acids

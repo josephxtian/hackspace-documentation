@@ -30,7 +30,9 @@ Controls
 
 Please see the below demonstration videos for this machine.
 
-[!type:video](https://player.vimeo.com/video/109901699)
+<div class="video-container">
+  <iframe src="https://player.vimeo.com/video/109901699" allowfullscreen></iframe>
+</div>
 
 Review the [Record BS12 Manual](../../../instruction_manuals/bandsaw_green.pdf) for any further queries
 
@@ -51,7 +53,9 @@ Use a v-block when cutting round material
 
 This is a simple device that can be homemade which prevents round material from rotating and pulling your hand into the blade. Please watch the video below to see why this is necessary.
 
-![type:video](https://www.youtube.com/embed/pDC-dFCAkHg)
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/pDC-dFCAkHg" allowfullscreen></iframe>
+</div>
 
 Setting the guard
 -----------------

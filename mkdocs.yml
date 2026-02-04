@@ -5,6 +5,11 @@ repo_url: https://github.com/HACManchester/documentation/
 theme:
   name: material
   palette:
+  # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -29,12 +34,13 @@ theme:
     - navigation.indexes # allows overview page for each section
     - toc.follow # side-bar keeps up with current location
     - navigation.top # 'back to top' button
+    - navigation.footer # 'Next' and 'previous' page links in footer
 
 plugins:
   - search # Allows searching through documentation
   - emailprotect # protects email addresses from bots
-  - mkdocs-video # allows video embedding in docs
-  - awesome-nav # easy page navigation design
+  - awesome-nav: # easy page navigation design
+      filename: navigation_structure.yml
   - git-revision-date-localized
   - redirects:
       redirect_maps:
@@ -105,7 +111,6 @@ plugins:
         'Workshop_Areas/Woodwork/Inductions/WoodLathe.md': 'equipment/woodwork/inductions/wood_lathe.md'
         'Workshop_Areas/Woodwork/Training/Bandsaw.md': 'equipment/woodwork/training/bandsaw.md'
         'Workshop_Areas/Woodwork/Training/DustExtraction.md': 'equipment/woodwork/training/dust_extraction.md'
-        'Workshop_Areas/Woodwork/Training/General.md': 'equipment/woodwork/training/general.md'
         'Workshop_Areas/Woodwork/Training/MitreSaw.md': 'equipment/woodwork/training/mitre_saw.md'
         'Workshop_Areas/Woodwork/Training/TableSaw.md': 'equipment/woodwork/training/table_saw.md'
 
@@ -117,9 +122,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.blocks.admonition
-  - pymdownx.blocks.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -128,9 +133,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_javascript:
-
-    # HighlightJS for coloring in code blocks - https://highlightjs.org/static/demo/
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js
   - assets/js/hljs/config.js
 
     # Sortable tables
@@ -138,5 +140,4 @@ extra_javascript:
   - assets/js/sorttable/config.js
 
 extra_css:
-    # HighlightJS for coloring in code blocks - https://highlightjs.org/static/demo/
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/atelier-dune-light.min.css
+  - extra.css

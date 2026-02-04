@@ -1,0 +1,16 @@
+/* Add border to images only in light mode */
+[data-md-color-scheme="default"] .md-content img {
+  border: 1px solid rgb(255, 196, 0);
+}
+
+/* Center video containers and set the 80% width */
+.video-container {
+    width: 95%;
+}
+
+/* Style video frame */
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Maintains the widescreen look */
+    border: 0;           /* This replaces frameborder=0 */
+}
