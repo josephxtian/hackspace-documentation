@@ -1,0 +1,9 @@
+nav:
+  - Home: index.md
+  - Getting Started:
+      - 01_getting_started/index.md
+      - 01_getting_started/introduction.md
+      - 01_getting_started/communication.md
+      - 01_getting_started/access.md
+      - 01_getting_started/managing_membership.md
+      - "01_getting_started/*"

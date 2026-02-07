@@ -1,30 +1,33 @@
-# Access
+# Door Access
 
 ## Keyfob Access
-To access the space for the first time independently (not on a tour) you will need to register an RFID fob. Fobs are available in the space by the registration computer (in front of you when you enter the space). They are typically plastic disks on a key ring. At the time of writing they are yellow plastic discs.
+Once your account is set up, you'll need to get a keyfob to access the space. You will need to register a keyfob. Fobs are available by the registration computer (in front of you when you enter the space).
 
-To add an RFID tag to your account, log into <https://members.hacman.org.uk> and click "Set up an access method" or "[number of] access methods" in the bar at the top of the page.
+To add an RFID tag to your account, log into the [membership portal](https://members.hacman.org.uk) and click "Set up an access method" at the top of the page.
 
-***Note your Fob Will Not Work Until you have completed this induction and ticked the box at the bottom***
+!!! info
+    Your Fob Will Not Work until you have completed the induction and ticked the box at the bottom
 
-![edit](https://docs.hacman.org.uk/images/rfid_1.png)
+Click on the text box under the `Add a keyfob` and scan your new fob on the reader connected to the sign up PC, this will auto-populate the text box, then click `Add a new fob` to save it.
 
-Scroll to the bottom of the Edit Your Details area, click on the white box under the text and scan your fob with the reader connected to the sign up PC (or any compatible phone or rfid reader you have lying around) to enter your fob UID then click Add a new fob to save this.
+![View of access setup on membership portal](./assets/access_1.png)
 
-![](https://docs.hacman.org.uk/images/rfid_2.png "fob")
-
-### Mobile phone Registration
-
-You can also use a compatible mobile phone to register a fob by simply using any 13.5mhz rfid tag, reading the id of that fob and entering it into the field below on the membership system
-
-![](https://docs.hacman.org.uk/images/rfid_2.png "fob")
-
+!!! tip
+    You can also use a compatible mobile phone to register a fob by simply using any 13.5mhz rfid tag, reading the id of that fob and entering it into the field below on the membership system
 
 ## Access Code
-The space can also be accessed with an access code. The code can be used at anytime, but is particularly useful if the RFID system fails, or you lose your fob and need to collect another.
+The space can also be accessed with an access code.
 
-Scroll to the bottom of the Edit Your Details area, click on 'Request access code' and your pincode will be displayed at the top of your profile when the page refreshes.
+In the [membership portal](https://members.hacman.org.uk/), click on `Your Membership` and then `access methods` at the top of the page. 
 
-<img width="865" alt="image" src="https://user-images.githubusercontent.com/10685917/202847669-d6d98d44-5800-43f4-8a6f-6d486746fb07.png">
+Click on `Request access code` and your pincode will be displayed at the top of your profile when the page refreshes.
 
-Note: New members must come to the space for a tour and to collect and register a fob before they will be able to request an access code.
+!!! info
+    New members must register a fob before you are able to request an access code.
+
+## Accessibility
+The space has one small doorstep to get in, about 5cm high. We have a rubber wheelchair ramp that can be laid out quickly to assist wheeled entry, and a doorbell that can be used to bring someone to the door. Most of Hackspace is on one level, though the floor can be a little uneven in places. The Visual Arts area is on a raised platform with balustrades around all sides. The platform is accessed by a steep ramp to one side (1 in 3 gradient) and stairs to the other.
+
+As a 24/7 community space we cannot be guaranteed the floor will be kept clear, however the space is large enough that blockages are unlikely to prohibit flow around the space.
+
+If you have further access questions please [contact us](./communication.md) and we will do our best to help.
