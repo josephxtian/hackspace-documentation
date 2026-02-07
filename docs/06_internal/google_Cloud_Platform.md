@@ -16,7 +16,7 @@ When a new member signs up, the membership system emails `outreach @ hacman .org
 The new member gets their welcome pack, and is guided to add their new fob to their account, familiarising them with the membership system, and is given a link to hacman.org.uk/welcome which serves as a brief welcome guide.
 
 You can find discussion here:
-https://list.hacman.org.uk/t/space-reopening-welcome-packs/2854/10
+{{ links.forum }}/t/space-reopening-welcome-packs/2854/10
 
 ### HacmanWordpressWeb
 ✔️ Live

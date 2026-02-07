@@ -6,7 +6,7 @@ The system is divided into two separate systems:
 2. Consumables - Items which are expected to be replaced frequently. This includes blades, paper products, electronics components, cleaning equipment, oils, adhesives, etc.
 
 # Purchase Proposals
-Purchase proposals can only be put forward by any active member by creating a thread in the “Purchase Proposals” section of our [online forum.](https://list.hacman.org.uk/c/purchase-proposals/41)
+Purchase proposals can only be put forward by any active member by creating a thread in the “Purchase Proposals” section of our [online forum.]({{ links.forum }}/c/purchase-proposals/41)
 
 A purchase proposal should consist of the following:
 * A clearly defined aim, including who it will affect and how.
@@ -89,7 +89,7 @@ All purchases should be made within 90 days of approval, unless otherwise agreed
 # Consumables
 Hackspace Manchester aims to maintain a small stock of consumables within the Hackspace for members to use. There is a central list of pre-approved consumables which can be found at the link below, alongside the pre-approved cost, recommended suppliers, and permitted purchasers.
 
-[Link to consumables list](https://docs.google.com/spreadsheets/d/1AOO55t0vs3c4PiPQu42w1USbfekBcNd9CSx9lppWmmY/edit?usp=sharing)
+[Link to consumables list]({{ links.consumables_list }})
 
 For items that list “Members” as the permitted purchaser, members can purchase and replenish the Hackspace’s supplies of this item and request reimbursement using the “Request Reimbursement” form linked later in this document. For items listing “Area Coordinator” or “Board” as the permitted purchaser, only members within those groups may purchase the item.
 

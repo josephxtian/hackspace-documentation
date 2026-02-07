@@ -13,9 +13,9 @@ Our welding/grinding area is located between the metalwork area and the visual a
 |   |                                                                              |
 |---|------------------------------------------------------------------------------|
 | [Co-ordinator](https://t.me/diazwatson)                | Member responsible for the area.                                             |
-| [Team](https://list.hacman.org.uk/g/Team_Welding)      | List of members of the Welding Team.                                         |
-| [Forum](https://list.hacman.org.uk/c/space/welding/51) | All discussions related to with our welding area.                            |
-| [Telegram](https://t.me/HACManchester/211848)          | For anything related to welding/grinding, or matters relating to this area. |
+| [Team]({{ links.forum }}/g/Team_Welding)      | List of members of the Welding Team.                                         |
+| [Forum]({{ links.forum }}/c/space/welding/51) | All discussions related to with our welding area.                            |
+| [Telegram]({{ links.telegram }}/211848)          | For anything related to welding/grinding, or matters relating to this area. |
 
 ## The Co-ordinator
 
@@ -29,7 +29,7 @@ The welding/grinding area co-ordinator is the person with these responsibilities
 
 ## The Welding/Grinding Team
 
-This area is managed by the [welding team](https://list.hacman.org.uk/g/Team_Welding). Their responsibilities are:
+This area is managed by the [welding team]({{ links.forum }}/g/Team_Welding). Their responsibilities are:
 
 - Attending team meetings
 - Assisting the Board & Sub-committees when required
@@ -50,7 +50,7 @@ These guidelines are there for everyone's protection and must be followed at all
 Ensuring a safe and responsible working environment is crucial for all members.
 
 !!! success
-    If you find any PPE is missing or damaged please contact [The Welding Team](https://list.hacman.org.uk/g/Team_Welding) asap via [Telegram](https://t.me/HACManchester/211848).
+    If you find any PPE is missing or damaged please contact [The Welding Team]({{ links.forum }}/g/Team_Welding) asap via [Telegram]({{ links.telegram }}/211848).
 
 Due to the nature of welding/grinding it is common to find members using the equipment that requires PPE.
 As such we recommend that all members within woodwork wear the appropriate PPE whenever equipment is being used.

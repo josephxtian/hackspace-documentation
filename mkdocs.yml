@@ -22,8 +22,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
-      accent: yellow
+      primary: amber
+      accent: deep orange
       toggle:
         icon: material/brightness-2
         name: Switch to light mode
@@ -38,6 +38,7 @@ theme:
 
 plugins:
   - search # Allows searching through documentation
+  - macros # Used for global link list defined below
   - emailprotect # protects email addresses from bots
   - awesome-nav: # easy page navigation design
       filename: navigation_structure.yml
@@ -70,3 +71,22 @@ extra_javascript:
 
 extra_css:
   - extra.css
+
+extra:
+  # Define links throughout the document here.
+  # If the link changes, we only have to change 
+  # it here to change it everywhere else.
+  links:
+    risk_assessments: https://drive.google.com/drive/folders/1gNdDUavZLfXFX8dfru6wcbcLSanm1Sv-?usp=sharing
+    consumables_list: https://docs.google.com/spreadsheets/d/1AOO55t0vs3c4PiPQu42w1USbfekBcNd9CSx9lppWmmY/edit?usp=sharing
+    broken_equipment_form: https://forms.gle/UT92ABZ2mFttCrY6A
+    accident_form: https://forms.gle/UT92ABZ2mFttCrY6A
+    formal_incident_form: https://forms.gle/HC2xJrz1XcXx4W1w7
+    space_calendar: https://www.hacman.org.uk/calendar/
+    telegram: https://t.me/hacmanchester
+    forum: https://list.hacman.org.uk/
+    events_box_office: https://www.tixtree.com/o/manchester-hackspace-d5c0001fd603
+    members_portal: https://members.hacman.org.uk
+    website: https://www.hacman.org.uk/
+    instagram: https://www.instagram.com/hacmanchester
+    visit_us: https://www.hacman.org.uk/visit-us/

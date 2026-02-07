@@ -1,6 +1,6 @@
 #  Adding Documentation
 
-https://docs.hacman.org.uk is the home for documentation relating to Manchester Hackspace
+[https://docs.hacman.org.uk]() is the home for documentation relating to Manchester Hackspace
 
 It is hosted on GitHub Pages through mkdocs-material. The wiki is written in markdown, a type of text file, the same that the forum uses.
 
@@ -12,7 +12,7 @@ Create a pull request with a new markdown file in the documentation repository a
 
 #### Non github user 
 
-Create a markdown text file (try [stackedit.io](https://stackedit.io) if you want  a simple editor) and email the output to board@hacman.org.uk and we will add it to the repo on your behalf
+Create a markdown text file (try [stackedit.io](https://stackedit.io) if you want  a simple editor) and email the output to <board@hacman.org.uk> and we will add it to the repo on your behalf
 
 ### Adding videos, GIFs and animations
 

@@ -5,7 +5,7 @@ Manchester Hackspace is a busy community. We use a few different tools to stay o
 ---
 
 ## The Forum (Official)
-[list.hacman.org.uk](https://list.hacman.org.uk)
+[list.hacman.org.uk]({{ links.forum }})
 
 *The go-to place for keeping up with the community*
 Used for everything from showing off your latest project, to reporting a faulty piece of equipment. Also used for admin announcements, posting events, maintenance updates, scheduling inductions and purchase proposals.
@@ -16,7 +16,7 @@ Used for everything from showing off your latest project, to reporting a faulty 
 ---
 
 ## Telegram (Less official)
-[t.me/hacmanchester](https://t.me/hacmanchester)
+[t.me/hacmanchester]({{ links.telegram }})
 
 Informal and quick moving discussion such as ‘where do we keep screws’ or chatting about an idea you're developing. Telegram is a messaging app similar to Whatsapp. The conversation is split into several topics.
 
@@ -24,19 +24,19 @@ Informal and quick moving discussion such as ‘where do we keep screws’ or ch
 
 
 ## Instagram
-[@hacmanchester](https://www.instagram.com/hacmanchester)
+[@hacmanchester]({{ links.instagram }})
 
 We're on instagram, feel free to tag us. We'd love more content on our instagram, so if you have anything to show off, please send it our way!
 
 ## Newsletter
 Our monthly newsletter is a handy summary of upcoming events at the space and the most important announcements.
 
-You can unsubscribe at any time via the `Edit` button on your page of the [members portal](https://members.hacman.org.uk).
+You can unsubscribe at any time via the `Edit` button on your page of the [members portal]({{ links.members_portal }}).
 
 ## Email
 Occasionally the board of directors may need to email you directly. You may receive emails from <info@hacman.org.uk> or <board@hacman.org.uk>. These are usually important updates, please do not ignore these.
 
 ## Calendar
-[hacman.org.uk/calendar](https://hacman.org.uk/calendar)
+[hacman.org.uk/calendar]({{ links.space_calendar }})
 
 Our Google Calendar is kept up to date with all the events happening in any month. It also features a handy Etihad match day reminder so you don't get caught out by the football traffic.

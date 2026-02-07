@@ -8,10 +8,10 @@ Contact
 
 | Contact                                                    |                                                                                   |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [Co-ordinator](https://list.hacman.org.uk/u/peterdroberts) | Member responsible for the area.                                                  |
-| [Team](https://list.hacman.org.uk/g/Team_Wood)             | List of members of the Woodworking Team.                                          |
-| [Forum](https://list.hacman.org.uk/c/space/woodworking/6)  | All discussions related to with our woodworking area.                             |
-| [Telegram](https://t.me/HACManchester/200505)              | For anything related to woodworking, or matters relating to our woodworking area. |
+| [Co-ordinator]({{ links.forum }}/u/peterdroberts) | Member responsible for the area.                                                  |
+| [Team]({{ links.forum }}/g/Team_Wood)             | List of members of the Woodworking Team.                                          |
+| [Forum]({{ links.forum }}/c/space/woodworking/6)  | All discussions related to with our woodworking area.                             |
+| [Telegram]({{ links.telegram }}/200505)              | For anything related to woodworking, or matters relating to our woodworking area. |
 
 The Co-ordinator
 ----------------
@@ -27,7 +27,7 @@ The woodworking area co-ordinator is the person with these responsibilities:
 The Woodworking Team
 --------------------
 
-The woodworking area is managed by the [Wood Team](https://list.hacman.org.uk/g/Team_Wood). Their responsibilities are:
+The woodworking area is managed by the [Wood Team]({{ links.forum }}/g/Team_Wood). Their responsibilities are:
 
 -	Attending team meetings
 -	Assisting the Board & Sub-committees when required

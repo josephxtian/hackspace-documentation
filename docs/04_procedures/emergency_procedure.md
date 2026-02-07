@@ -6,7 +6,7 @@ If an incident occurs whilst you're in the space, you should:
 
 1. Move to somewhere safe and help others to do the same
 2. Notify others in the space who might not be aware of the incident
-3. Contact our [emergency contacts](#contacts) and follow their instructions
+3. Contact our [emergency contacts](#emergency-contacts) and follow their instructions
 
 ## First aid
 
@@ -31,8 +31,8 @@ When you hear the fire alarm, you should:
 When you arrive at the assembly point, you should:
 
 1. Make sure that everyone who's known to be in the space has left
-2. Call 999, ask for Fire & Rescue, and give them [our address](#contacts)
-3. Contact our [emergency contacts](#contacts) and follow their instructions
+2. Call 999, ask for Fire & Rescue, and give them [our address](#emergency-contacts)
+3. Contact our [emergency contacts](#emergency-contacts) and follow their instructions
 
 Once [Greater Manchester Fire & Rescue Service](https://www.manchesterfire.gov.uk) (GMFRS) arrive, you should give them:
 
@@ -51,7 +51,7 @@ If you need to isolate the electricity supply, you'll find circuit breakers in t
 - Wood workshop: Member storage area, in a grey steel cabinet above shelf A1
 - Rest of the space: Back of the visual arts area in a beige steel cabinet
 
-Once it's safe to do so, contact our [emergency contacts](#contacts) and follow their instructions.
+Once it's safe to do so, contact our [emergency contacts](#emergency-contacts) and follow their instructions.
 
 ## Crimes and personal safety
 
@@ -59,7 +59,7 @@ If your safety is at risk, such as a crime happening now, call 999 and ask for P
 
 In the event of a break-in or damage to the building, do what you can to secure the space, such as boarding up a door.
 
-Once it's safe to do so, contact our [emergency contacts](#contacts) and follow their instructions.
+Once it's safe to do so, contact our [emergency contacts](#emergency-contacts) and follow their instructions.
 
 ## Local incidents
 
@@ -69,15 +69,15 @@ If there's a major incident in the local area, the emergency services will respo
 
 If you become aware of such an incident, you should consider staying in the space until you're sure that the local area is safe.
 
-Once it's safe to do so, contact our [emergency contacts](#contacts) and follow their instructions.
+Once it's safe to do so, contact our [emergency contacts](#emergency-contacts) and follow their instructions.
 
-## Emergency contacts {#contacts}
+## Emergency contacts
 
 If there's a risk to life, property or the environment, call the emergency services on 999. Don't assume that someone else has already done so.
 
 Once you've called them, you should:
 
-- Email the board at [board@hacman.org.uk](mailto:board@hacman.org.uk)
+- Email the board at <board@hacman.org.uk>
 - Call our landlord on [0161 974 3232](tel:+441619743232), if the incident affects the safety or integrity of the building
 
 If you're asked for the address of the space, it is:

@@ -129,7 +129,7 @@ At this stage you should now be ready to do the cut for real.
 
 -   There is a log book for keeping track of usage of the laser. Please write down your name and the length of time you've used the laser for in the front of the book.
 -   The laser is currently billed by 10 minute or 1 hour increments, with the rate written on the laser cutter.
--   Laser fees can be paid in cash into a box near the laser, which should be clearly marked, or from your member balance at [the members' system laser page](https://members.hacman.org.uk/equipment/laser).
+-   Laser fees can be paid in cash into a box near the laser, which should be clearly marked, or from your member balance at [the members' system laser page]({{ links.members_portal }}/equipment/laser).
 -   If you owe the laser fund money or have some credit (e.g. have paid with a £10 note and only used £3) record your balance at the back of the log book.
 
 ### Things to not worry about
@@ -192,7 +192,7 @@ At this stage you should now be ready to do the cut for real.
 
 ## Status
 
-Status can be seen on the members page at [the members' system laser page](https://members.hacman.org.uk/equipment/laser). If there is a notice on the laser itself saying it is out of order, that takes priority.
+Status can be seen on the members page at [the members' system laser page]({{ links.members_portal }}/equipment/laser). If there is a notice on the laser itself saying it is out of order, that takes priority.
 
 ## Checklist for induction - Trainers Guide to Laser Cutting
 

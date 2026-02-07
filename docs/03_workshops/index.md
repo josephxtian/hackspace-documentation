@@ -20,7 +20,7 @@ Certain equipment requires an induction so you don't hurt yourself or damage the
 
 Please check signage around the machine. A good general rule to go by is that if it's particularly dangerous or complex, it's probably induction protected.
 
-The “Tools & Equipment” page on the [Members Portal](https://members.hacman.org.uk/equipment) notes which pieces of equipment require inductions.
+The “Tools & Equipment” page on the [Members Portal]({{ links.members_portal }}/equipment) notes which pieces of equipment require inductions.
 
 ### No Lone Working
 Some induction protected tools are additionally marked ‘No Lone Working’. This means another member must be in the space. They do not have to be in the same room, but need to be able to hear you in the case of an emergency.

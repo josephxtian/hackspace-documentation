@@ -4,8 +4,8 @@
 ZeroCool is the external server hosted at Hetzner and houses the majority of the tech infrastructure for the hackspace including
 
  1. Main Website - https://www.hacman.org.uk
- 2. Members System - https://members.hacman.org.uk 
- 3. Forum (Discourse) https://list.hacman.org.uk
+ 2. Members System - {{ links.members_portal }} 
+ 3. Forum (Discourse) {{ links.forum }}
  4. Database Server (MySQL) 
 
 Setup by Rossy in November 2018 this contains the heart of our infrastructure
@@ -123,7 +123,7 @@ Currently there is one MYSQL server with multiple databases within it and differ
 
 Public Facing Website based on wordpress with avada theme. Members have editing privledges to the website to update it 
 
-### Members (https://members.hacman.org.uk)
+### Members ({{ links.members_portal }})
 This is a forked version of Build Brighton Membership System and can be found on github. Setup is fairly simple and requires a webserver running php with composer and larvell installed. Permissions may need to be edited for /storage and /bootstrap/cache for the install to work.
 
 Apache Vhost needs to be configured with /members/public as the document root but /members needs to be accessible to apache
@@ -132,7 +132,7 @@ You also need a .env file within the members directory
 
 Buddy.works is used to run the member system billing script that requires to be run each day to bill members. 
 
-### The Bikeshed aka the Forum (https://list.hacman.org.uk)
+### The Bikeshed aka the Forum ({{ links.forum }})
 
 Standard Discourse install operates on a seperate ip to the rest of the server 
 

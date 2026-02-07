@@ -17,3 +17,6 @@ mkdocs-awesome-nav
 # For setting up redirects from old URLs to new URLs
 # https://github.com/datarobot/mkdocs-redirects
 mkdocs-redirects
+
+# For global external link list defined in mkdocs.yml
+mkdocs-macros-plugin

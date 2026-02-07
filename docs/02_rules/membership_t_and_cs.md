@@ -32,9 +32,9 @@ Manchester Hackspace, Hackspace Manchester, HACMan, Hackspace and Hacman are all
 
 3.1.1 You have read these terms and conditions and agree to them.
 
-3.1.2 You have read the [rules](https://docs.hacman.org.uk/governance/rules/) and agree to them.
+3.1.2 You have read the [rules](./the_rules.md) and agree to them.
 
-3.1.3 You have read our [health and safety policy](https://docs.hacman.org.uk/governance/health_safety/health_and_safety/) and agree to abide by it.
+3.1.3 You have read our [health and safety policy](./health_and_safety.md) and agree to abide by it.
 
 3.1.3.1 You agree to abide by the lone working policy.
 
@@ -42,7 +42,7 @@ Manchester Hackspace, Hackspace Manchester, HACMan, Hackspace and Hacman are all
 
 3.1.5 You have familiarised yourself with any other applicable policies and documents governing the use of Manchester Hackspace and agree to them.
 
-3.1.6 You have familiarised yourself with the [Emergency Procedure](https://docs.hacman.org.uk/emergency_procedure) and understand what to do in the event of an emergency.
+3.1.6 You have familiarised yourself with the [Emergency Procedure](../04_procedures/emergency_procedure.md) and understand what to do in the event of an emergency.
 
 ### 4. Expectations of Members
 
@@ -68,12 +68,12 @@ Note do not feel you have to give back on the same day (other than cleaning up a
 
 5.2 Manchester Makers Ltd takes no resposibility for any personal belongings stored at the space.
 
-5.3 Manchester Makers Ltd reserves the right to dispose of, relocate or remove anything not stored in accordance with the [storage rules](https://docs.hacman.org.uk/governance/rules/member_storage/) without prior warning.
+5.3 Manchester Makers Ltd reserves the right to dispose of, relocate or remove anything not stored in accordance with the [storage rules](./member_storage.md) without prior warning.
 
 ### 6. Use of tools
 6.1 Manchester Hackspace provides a wide variety of tools. It is your responsibility to ensure you feel competent to use a tool before using it. If in doubt, ask somebody to help you, or spend some time learning best practise from available resources.
 
-6.2 Some tools are induction protected. You must not use these tools without being signed off. The [members portal](https://members.hacman.org.uk) is the best place to check if you need an induction to use a tool, and also an accurate log of who is allowed to use each inducted tool.
+6.2 Some tools are induction protected. You must not use these tools without being signed off. The [members portal]({{ links.members_portal }}) is the best place to check if you need an induction to use a tool, and also an accurate log of who is allowed to use each inducted tool.
 
 6.3 Manchester Hackspace discourages members bringing their own tools in.
 

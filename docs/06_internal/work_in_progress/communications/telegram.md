@@ -26,34 +26,34 @@ The following tables list our group chat channels and their purpose. Click their
 
 | Group name                                         | Purpose                                                                                                                                            |
 | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Hackspace Manchester](https://t.me/HACManchester) | The main telegram group, split into lots of topics so you can follow your specific interests.                                                              |
-| [Doorbot](https://t.me/+TVKs_4B85ksjAAVl)          | Entry and exit logs of opted in members. Setting an 'Announce Name' in your [Membership Settings](https://members.hacman.org.uk) will opt you in. Leave blank to opt-out. |
+| [Hackspace Manchester]({{ links.telegram }}) | The main telegram group, split into lots of topics so you can follow your specific interests.                                                              |
+| [Doorbot](https://t.me/+TVKs_4B85ksjAAVl)          | Entry and exit logs of opted in members. Setting an 'Announce Name' in your [Membership Settings]({{ links.members_portal }}) will opt you in. Leave blank to opt-out. |
 
 ### Topics
 
 | Channel Name                                                | Purpose                                                                                                                                                                          |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Announcements](https://t.me/HACManchester/200496) | News of members meetings, hack-the-space days, or outages / issues with the Hackspace or equipment. Please do not chat here.|
-| [General & Help](https://t.me/HACManchester/1) | The first point for any questions and unspecific queries.
-| [Help out](https://t.me/HACManchester/213110) | Any requests for volunteers needed around the space will be posted here. |
-| [Metalwork](https://t.me/HACManchester/200510)| Metal workshop and metal related chat and questions.|
-| [Woodwork](https://t.me/HACManchester/200505)| Wood workshop and woodwork related chat and questions.|
-| [Electronics](https://t.me/HACManchester/200517)| Electronics area and electronics related chat and questions.|
-| [Visual Arts](https://t.me/HACManchester/200514)| Visual Arts area and crafts related chat and questions - sewing, painting, textiles, printing, crafts.|
-| [3D printing](https://t.me/HACManchester/200524)| 3D printer and printing related chat and questions.|
-| [CNC](https://t.me/HACManchester/200527)| CNC area and CADCAM related chat and questions.|
-| [Bike space](https://t.me/HACManchester/200520)| Bike repair and bicycle related chat and questions.|
-| [Laser cutter](https://t.me/HACManchester/203787) | Laser cutter related chat and questions |
-| [Show and Tell](https://t.me/HACManchester/211449) | Show off your projects, finished or work in progess.|
-| [Events/Meetings](https://t.me/HACManchester/200535) | Events and meetings coming up at Hackspace. (Also see  our [calendar](https://hacman.org.uk/calendar))|
-| [New Member Questions](https://t.me/HACManchester/246599) | Ask your newbie questions here.
-| [Games Night](https://t.me/HACManchester/200539)| Board gaming & game night related chatter.|
-| [Clutter Exchange](https://t.me/HACManchester/200692)| The free member jumble sale. Offload your unwanted treasures to other members.|
-| [Open Evening Guides](https://t.me/HACManchester/200530)| Help run our open evening tours, or ask questions about them here.|
-| [Welding](https://t.me/HACManchester/211848)| CNC area and CADCAM related chat and questions.|
-| [Tangents](https://t.me/HACManchester/200493) | A place for your dedicated chatter. If you start a conversation elsewhere that moves on, please take it here to spare others from the notifications.
-| [emfcamp](https://t.me/HACManchester/213541) | EMF camp is a bi-yearly makers festival. This chat is used to arrange the Manchester village. |
-| [Elections](https://t.me/HACManchester/205059) | Open only during Hackspace election season (~September).
+| [Announcements]({{ links.telegram }}/200496) | News of members meetings, hack-the-space days, or outages / issues with the Hackspace or equipment. Please do not chat here.|
+| [General & Help]({{ links.telegram }}/1) | The first point for any questions and unspecific queries.
+| [Help out]({{ links.telegram }}/213110) | Any requests for volunteers needed around the space will be posted here. |
+| [Metalwork]({{ links.telegram }}/200510)| Metal workshop and metal related chat and questions.|
+| [Woodwork]({{ links.telegram }}/200505)| Wood workshop and woodwork related chat and questions.|
+| [Electronics]({{ links.telegram }}/200517)| Electronics area and electronics related chat and questions.|
+| [Visual Arts]({{ links.telegram }}/200514)| Visual Arts area and crafts related chat and questions - sewing, painting, textiles, printing, crafts.|
+| [3D printing]({{ links.telegram }}/200524)| 3D printer and printing related chat and questions.|
+| [CNC]({{ links.telegram }}/200527)| CNC area and CADCAM related chat and questions.|
+| [Bike space]({{ links.telegram }}/200520)| Bike repair and bicycle related chat and questions.|
+| [Laser cutter]({{ links.telegram }}/203787) | Laser cutter related chat and questions |
+| [Show and Tell]({{ links.telegram }}/211449) | Show off your projects, finished or work in progess.|
+| [Events/Meetings]({{ links.telegram }}/200535) | Events and meetings coming up at Hackspace. (Also see  our [calendar]({{ links.space_calendar }}))|
+| [New Member Questions]({{ links.telegram }}/246599) | Ask your newbie questions here.
+| [Games Night]({{ links.telegram }}/200539)| Board gaming & game night related chatter.|
+| [Clutter Exchange]({{ links.telegram }}/200692)| The free member jumble sale. Offload your unwanted treasures to other members.|
+| [Open Evening Guides]({{ links.telegram }}/200530)| Help run our open evening tours, or ask questions about them here.|
+| [Welding]({{ links.telegram }}/211848)| CNC area and CADCAM related chat and questions.|
+| [Tangents]({{ links.telegram }}/200493) | A place for your dedicated chatter. If you start a conversation elsewhere that moves on, please take it here to spare others from the notifications.
+| [emfcamp]({{ links.telegram }}/213541) | EMF camp is a bi-yearly makers festival. This chat is used to arrange the Manchester village. |
+| [Elections]({{ links.telegram }}/205059) | Open only during Hackspace election season (~September).
 
 ### Operations
 

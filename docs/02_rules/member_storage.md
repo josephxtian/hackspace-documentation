@@ -1,7 +1,8 @@
-# Members Storage Rules
+# Storage Policy
 The space provides limited short-term storage for active projects. All stored items should be on a shelf in members storage or in large project storage. When your project is finished or inactive, please free your shelf up for others.
 
 Members may use one cube space, or half of a shelf in the storage area. To claim a shelf:
+
 1. Find an available shelf space.
 2. Attach the provided label to your items/the box they're in
 3. Add your full name and at least one contact detail (phone number, email, telegram)
@@ -26,7 +27,7 @@ Items that cannot fit on a shelf must be stored in the large project storage are
 
 Oversized items need to be clearly labelled with a sticker including your name / unique nickname, a method of contacting you and an estimated finish date not further than 1 month in the future. If you are going to overshoot this finish date, update the label.
 
-Do not leave projects in workshop areas, even if they are labelled. Have a back up plan to get your project home if large project storage is full. Unfortunately our space is not suitable for every project. If you need additional storage space [The Northern Group](https://www.northerngroup.co.uk/) and [Pollard Yard](https://www.instagram.com/pollard_yard/) rent storage units upstairs in our building and next door.
+Do not leave projects in workshop areas, even if they are labelled. Have a back up plan to get your project home if large project storage is full. Unfortunately our space is not suitable for every project. If you need additional storage space [The Northern Group](https://www.northerngroup.co.uk/) and [Pollard Yard](https://www.instagram.com/pollard_yard/) rent storage units upstairs in our building and in the shipping container plot adjacent.
 
 
 ## Prohibited Storage Items

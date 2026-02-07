@@ -4,19 +4,19 @@
 Manchester Hackspace is proud of its diverse community from all walks of life and with all sorts of skills.
 Everyone is welcome to use the space in harmony regardless of sex, gender, ethnicity, race, ability, sexuality, socio-economic background or belief.
 
-We will not tolerate harassment in any form. Harassment includes, but may not be limited to:
+We do not tolerate harassment in any form. Harassment includes, but may not be limited to:
 
-  * Offensive comments related to gender identity, sexual orientation, disability, physical appearance, race, religion, or socio-economic background.
-  * Deliberate intimidation.
-  * Stalking or following.
-  * Inappropriate or unwanted physical contact.
-  * Unwelcome sexual attention.
-  * Inappropriate or unrequested photography or recording.
-  * Sustained or repeated disruption.
-  * Lack of respect for personal space.
-  * Any other action that makes someone uncomfortable.
+  * Offensive comments
+  * Deliberate intimidation
+  * Stalking or following
+  * Inappropriate or unwanted physical contact
+  * Unwelcome attention
+  * Inappropriate or unrequested photography or recording
+  * Sustained or repeated disruption
+  * Lack of respect for personal space
+  * Any other action that makes someone uncomfortable
 
-We expect anyone asked to stop to do so immediately.
+We expect anyone asked to stop doing something to stop immediately.
 
 If you act or talk in a way that someone thinks is inappropriate, it is inappropriate.
 Do not ever put your opinions or desires before the comfort of others. There is never an excuse for behaviour that makes anyone else feel unwelcome or targeted.
@@ -25,7 +25,9 @@ Where a member or their guest is found to be breaking the rules or disrupting th
 
 # Complaints Policy
 
-If the behaviour continues or the member does not feel comfortable this should be reported via the [Incident Report Form](https://forms.gle/HC2xJrz1XcXx4W1w7). This can also be filled in by someone else on your behalf and can only be seen by the board of directors. We would never discourage an incident as being too small, as often it allows the directors to have an early intervention and get members on the right tracks. If that fails, it helps to build evidence of someone's character that can aid future decisions.
+If after asking someone to stop the inappropriate behaviour continues or you do not feel comfortable asking them to stop, please report it via the [Incident Report Form]({{ links.formal_incident_form }}) for the directors to review. You can also report something you have witnessed.
+
+We would never discourage an incident as being too small to report, as often it allows the directors to have an early intervention and get members on the right tracks. Reports also help the directors understand someone's character when making disciplinary decisions.
 
 The form asks for the following compulsory information:
 
@@ -41,7 +43,7 @@ The form asks for the following compulsory information:
 
 ## Disciplinary Process
 
-When a formal complaint is received, a minimum of two directors will review the complaint. All complaints are logged and given a case number. The reviewers will make a decision whether to take the complaint further, taking into consideration (but not being guided by) the wishes of the reporter. The reviewers will attempt to verify the complaint, check if other reports have been submitted about the member, and review the complaint against our [rules](https://docs.hacman.org.uk/governance/rules/) before making a final decision. We will try to complete this process within six weeks wherever possible.
+When a formal complaint is received, a minimum of two directors will review the complaint. All complaints are logged and given a case number. The reviewers will make a decision whether to take the complaint further, taking into consideration (but not being guided by) the wishes of the reporter. The reviewers will attempt to verify the complaint, check if other reports have been submitted about the member, and review the complaint against our [rules](./the_rules.md) before making a final decision. We will try to complete this process within six weeks wherever possible.
 
 Decisions are usually:
 * Log the complaint with no further action
@@ -59,4 +61,9 @@ The board of directors reserve the right to restrict or terminate membership of 
 
 Where a complaint is either about a director or submitted by a director, the complaint will be reviewed by uninvolved directors. In the exceptional case where it is not believed two directors can review the case impartially, a trusted member may be asked to assist with the review.
 
-Where cases are discussed in board meetings, they will be referred to by case number. No identifying personal information will be minuted about the reporter nor reportee. Our disciplinary process is always carried out inline with our [privacy notice](https://hacman.org.uk/privacy-notice/).
+Where cases are discussed in board meetings, they will be referred to by case number. No identifying personal information will be minuted about the reporter nor reportee. Our disciplinary process is always carried out inline with our [privacy notice](../05_governance/legal_notices/privacy_notice.md).
+
+## Incident Report Form
+
+Please use this form to lodge an incident report. Upon submission of the form, the directors will review the incident.
+[Incident Report Form]({{ links.formal_incident_form }})

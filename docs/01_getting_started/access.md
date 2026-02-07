@@ -3,7 +3,7 @@
 ## Keyfob Access
 Once your account is set up, you'll need to get a keyfob to access the space. You will need to register a keyfob. Fobs are available by the registration computer (in front of you when you enter the space).
 
-To add an RFID tag to your account, log into the [membership portal](https://members.hacman.org.uk) and click "Set up an access method" at the top of the page.
+To add an RFID tag to your account, log into the [membership portal]({{ links.members_portal }}) and click "Set up an access method" at the top of the page.
 
 !!! info
     Your Fob Will Not Work until you have completed the induction and ticked the box at the bottom
@@ -18,7 +18,7 @@ Click on the text box under the `Add a keyfob` and scan your new fob on the read
 ## Access Code
 The space can also be accessed with an access code.
 
-In the [membership portal](https://members.hacman.org.uk/), click on `Your Membership` and then `access methods` at the top of the page. 
+In the [membership portal]({{ links.members_portal }}), click on `Your Membership` and then `access methods` at the top of the page. 
 
 Click on `Request access code` and your pincode will be displayed at the top of your profile when the page refreshes.
 

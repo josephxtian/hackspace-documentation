@@ -20,32 +20,33 @@ It is important everyone understands:
 
 ## What is at Hackspace?
  Hackspace is broadly split into four areas:
-* Wood workshop - 'Woody Dusty' - Saws, sanders, drills, routers, etc.
-* Metal workshop - 'Weldy Grindy' - Lathes, drills, mills, hand tools, welding, grinding, guillotines, sheet benders
-* Electronics - Soldering stations, Oscilloscopes, etc.
-* Visual Arts - Laser cutter, heat press, sewing machines, general arts and crafts tools.
+- Wood workshop - 'Woody Dusty' - Saws, sanders, drills, routers, etc.
+- Metal workshop - 'Weldy Grindy' - Lathes, drills, mills, hand tools, welding, grinding, guillotines, sheet benders
+- Electronics - Soldering stations, Oscilloscopes, etc.
+- Visual Arts - Laser cutter, heat press, sewing machines, general arts and crafts tools.
 
 As well as these four main categories there is also:
-* 'Snackspace' / 'Parkspace' - Food prep facilities, tuck shop, chill out area, informative books, board games & main first aid point.
-* 3D Printer World - A range of state of the art FDM 3D printers
-* Bikespace - a bicycle repair area with a small selection of purchasable items.
-* General area - tables, chairs, PCs, sewing machines, dust sheets.
-* Executive Toilet - the main accessible toilet by the front door.
-* Messy Sink & Second Toilet - a sink for washing messy things, e.g. paint brushes and a toilet.
-* Members Storage - for storing active project items. See the [storage rules](docs/02_rules/member_storage.md) for more information.
+
+- 'Snackspace' / 'Parkspace' - Food prep facilities, tuck shop, chill out area, informative books, board games & main first aid point.
+- 3D Printer World - A range of state of the art FDM 3D printers
+- Bikespace - a bicycle repair area with a small selection of purchasable items.
+- General area - tables, chairs, PCs, sewing machines, dust sheets.
+- Executive Toilet - the main accessible toilet by the front door.
+- Messy Sink & Second Toilet - a sink for washing messy things, e.g. paint brushes and a toilet.
+- Members Storage - for storing active project items. See the [storage rules](../02_rules/member_storage.md) for more information.
 
 ## Who's Who at Hackspace?
-### The Board of Directors
+#### The Board of Directors
 Aka 'The Board' are the named members legally responsible for Manchester Hackspace. They are volunteers who are voted for a two year period to lead the direction of the organisation.
 
-### Area Co-ordinators
+#### Area Co-ordinators
 Aka 'ACs' help to coordinate efforts in the different areas of the space and keep our processes running smoothly. If you have an improvement you'd like to see implemented in one of the workshops, chat to the AC for that area and they should be able to point you in the right direction to get going.
 
-### Area Teams
+#### Area Teams
 The area teams help keep the workshops ticking over. The teams are made up of trainers, maintainers and general helpers. Anyone is welcome to join a team, just speak to the area coordinator.
 - Trainers - deliver training and inductions on tools.
 - Maintainers - help to keep our tools up and running, providing preventative maintenance, upgrades and fixing things when they do break.
 - General helpers - keeping up with the general tasks to do to keep our workshops running and improving.
 
-### Members
+#### Members
 This is everyone who is part of our community. Our memberships all pay into the same pot which along with the time we all give allow us to keep making hackspace better.

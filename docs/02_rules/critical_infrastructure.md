@@ -1,4 +1,4 @@
-# Critical Infrastructure
+# Critical Infrastructure Policy
 
 We have numerous assets that we consider critical infrastructure, and that members must not work on or make changes to themselves.
 
@@ -15,5 +15,16 @@ These include:
 The board of directors will coordinate any work needed on items of critical infrastructure to ensure the board maintain oversight and awareness of changes to our critical infrastructure,
 and make sure we are operating in compliance with legal, health & safety, landlord, and insurance obligations.
 
-If you become aware of any issues affecting critical infrastructure, please report it via our [Member Incident Report](https://forms.gle/PgARKofR3oV7wqyNA) form
-as either “Broken tool/Malfunctioning Equipment” or “Something else”.
+If you become aware of any issues affecting critical infrastructure, please report it to the board of directors <board@hacman.org.uk>.
+
+
+### Asbestos
+
+There is no high or medium risk asbestos in the space. There are a number of old electrical boxes around the space which have been marked as low risk asbestos. Members are unlikely to come into contact with these in the course of general use of the space.
+
+Please see the pdfs below for our own asbestos survey of the space alongside the wider asbestos survey for the entire building as carried out by the landlords
+
+[Wellington House Full Survey - 2018](../06_internal/asbestos/asbestos_wellingtonhouse.pdf)
+
+
+[Hackspace Manchester Survey - 2019](../06_internal/asbestos/asbestos_hacman.pdf) - Carried out by 0800 Asbestos. 

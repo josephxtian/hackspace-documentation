@@ -220,7 +220,7 @@ At this stage you should now be ready to do the cut for real.
 
 * There is a blue log book for keeping track of usage of the laser. Please write down your name and the length of time you've used the laser for in the front of the book.
 * The laser is currently billed by 10 minute or 1 hour increments, with the rate written on the laser cutter.
-* Laser fees can be paid in cash into a box near the laser, using the payment terminal in the snackspace or from your member balance at[ the members' system laser page](https://members.hacman.org.uk/equipment/laser).
+* Laser fees can be paid in cash into a box near the laser, using the payment terminal in the snackspace or from your member balance at[ the members' system laser page]({{ links.members_portal }}/equipment/laser).
 * If you owe the laser fund money or have some credit (e.g. have paid with a £10 note and only used £3) record your balance at the back of the log book.
 
 (insert picture of time elapsed screen and blue book)

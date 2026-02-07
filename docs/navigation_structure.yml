@@ -7,3 +7,15 @@ nav:
       - 01_getting_started/access.md
       - 01_getting_started/managing_membership.md
       - "01_getting_started/*"
+  - Rules & Policies:
+      - 02_rules/index.md
+      - 02_rules/the_rules.md
+      - 02_rules/health_and_safety.md
+      - 02_rules/membership_t_and_cs.md
+      - 02_rules/member_storage.md
+      - 02_rules/fair_use_policy.md
+      - 02_rules/conduct_complaints.md
+      - 02_rules/critical_infrastructure.md
+
+  - Quick Links:
+      - quick_links.md
