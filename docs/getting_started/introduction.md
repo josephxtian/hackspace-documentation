@@ -33,7 +33,7 @@ As well as these four main categories there is also:
 - General area - tables, chairs, PCs, sewing machines, dust sheets.
 - Executive Toilet - the main accessible toilet by the front door.
 - Messy Sink & Second Toilet - a sink for washing messy things, e.g. paint brushes and a toilet.
-- Members Storage - for storing active project items. See the [storage rules](../02_rules/member_storage.md) for more information.
+- Members Storage - for storing active project items. See the [storage rules](../rules_policies/member_storage.md) for more information.
 
 ## Who's Who at Hackspace?
 #### The Board of Directors

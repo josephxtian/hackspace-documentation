@@ -9,7 +9,7 @@ From the portal you can:
 * Amend your direct debit
 * Cancel your membership
 * Apply for tool inductions
-* Keep your address up to date (legal requirement - see our [terms and conditions](../02_rules/membership_t_and_cs.md)).
+* Keep your address up to date (legal requirement - see our [terms and conditions](../rules_policies/membership_t_and_cs.md)).
 
 ## Pausing Your Membership
 Our membership fees are kept low as we base them on rolling subscriptions. Though we discourage it, if you need to pause your membership, this can be done in the same way as [cancelling your membership](#cancelling-your-membership). Your access to the space will be paused at the date of your next direct debit payment.
@@ -24,4 +24,4 @@ Your membership account and a record of all your inductions will remain until yo
 Membership can be cancelled via the [membership portal]({{ links.members_portal }}). Scroll to the very bottom and click `Cancel Your Direct Debit and Leave`. Your access to the space will be revoked at the date of your next direct debit.
 
 !!! warning
-    Ensure you remove anything you have stored at Hackspace. Anything left will be considered abandoned in line with our [storage Ts & Cs](../02_rules/member_storage.md). Hackspace reserves the right to charge you for the removal and disposal of anything left after your membership ceases.
+    Ensure you remove anything you have stored at Hackspace. Anything left will be considered abandoned in line with our [storage Ts & Cs](../rules_policies/member_storage.md). Hackspace reserves the right to charge you for the removal and disposal of anything left after your membership ceases.

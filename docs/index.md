@@ -10,7 +10,7 @@ Please help us keep this wiki current by suggesting imporvements and edits to ou
 -   :material-account-star:{ .lg .middle } __New to Hackspace?__
     ---
     A brief run-down of what you need to know to get started at Hackspace.
-    [:octicons-arrow-right-24: Getting Started](01_getting_started/index.md)
+    [:octicons-arrow-right-24: Getting Started](getting_started/index.md)
 
 
 -   :material-scale-balance:{ .lg .middle } __The Legal Stuff__
@@ -21,7 +21,7 @@ Please help us keep this wiki current by suggesting imporvements and edits to ou
 -   :material-gavel:{ .lg .middle } __Our Rules__
     ---
     The 10 Rules, Health & Safety, Storage Guidelines, Guests, and Other Guidelines.
-    [:octicons-arrow-right-24: The Rules](02_rules/index.md)
+    [:octicons-arrow-right-24: The Rules](rules_policies/index.md)
 </div>
 
 ---

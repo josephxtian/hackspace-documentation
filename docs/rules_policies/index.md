@@ -2,10 +2,13 @@
 
 Our rules and policies are in place to ensure that the community can exist safely and cohesively. We have ten overarching rules, and everyone at Manchester Hackspace must ensure they understand and comply with these rules.
 
+<div class="grid cards" markdown>
+- [:material-gavel: **Rules of Membership**](./the_rules.md)  
+</div>
+
 In addition to this we request you familiarise yourself with our explanatory and policy documents. We believe most of our expectations are based on common sense, and expect members to act within the guidelines provided.
 
 <div class="grid cards" markdown>
-- [:material-gavel: **Rules of Membership**](./the_rules.md)  
 - [:material-alert-decagram: **Health & Safety**](./health_and_safety.md)  
 - [:material-file-certificate: **Terms & Conditions**](./membership_t_and_cs.md)  
 - [:material-package-variant-closed: **Storage Policy**](./member_storage.md)  
