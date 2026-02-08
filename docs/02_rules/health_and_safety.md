@@ -30,7 +30,7 @@ If they continue to use the tool in an unsafe way, ask them to stop using it and
  - Use the great selection of books in parkspace which form a fantastic learning resource.
  - Ask on the forum if anyone would be willing to meet you and show you how to use the tool.
 
- You should familiarise yourself with the risks of any tool before you use it. Risk assessments for each tool can be found in the red health and safety folder by the sign up desk, or in our repository of digital risk assessments (see quicklinks).
+ You should familiarise yourself with the risks of any tool before you use it. Risk assessments for each tool can be found in the red health and safety folder by the sign up desk, or in our repository of [digital risk assessments]({{ links.risk_assessments }}).
 
 ### Tool Inductions
 Some tools require an induction. This is typically tools that are either complex to use, expensive or can cause damage quickly. You can find out if a tool requires an induction, as well as apply for one on the [tool page]({{ links.members_portal }}/equipment) on the membership system.

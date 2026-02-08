@@ -2,28 +2,28 @@
 
 ### General
 <div class="grid cards" markdown>
-- [The Website]({{ links.website }})
-- [Members Portal]({{ links.members_portal }})
+- [:material-web: **The Website**]({{ links.website }})
+- [:material-account-key: **Members Portal**]({{ links.members_portal }})
 </div>
 
 ### Social
 <div class="grid cards" markdown>
-- [Events]({{ links.events_box_office }})
-- [The Forum]({{ links.forum }})
-- [Telegram Group]({{ links.telegram }})
-- [Events Calendar]({{ links.space_calendar }})
-- [Instagram]({{ links.instagram }})
+- [:material-ticket: **Events**]({{ links.events_box_office }})
+- [:material-forum: **The Forum**]({{ links.forum }})
+- [:fontawesome-brands-telegram: **Telegram Group**]({{ links.telegram }})
+- [:material-calendar-month: **Events Calendar**]({{ links.space_calendar }})
+- [:fontawesome-brands-instagram: **Instagram**]({{ links.instagram }})
 </div>
 
 ### Report Forms
 <div class="grid cards" markdown>
-- [Broken Equipment Report Form]({{ links.broken_equipment_form }})
-- [Accident Report Form]({{ links.accident_form }})
-- [Conduct & Incident Report Form]({{ links.formal_incident_form }})
+- [:material-wrench: **Broken Equipment Report**]({{ links.broken_equipment_form }})
+- [:material-medical-bag: **Accident Report Form**]({{ links.accident_form }})
+- [:material-account-group-outline: **Conduct & Incident Report**]({{ links.formal_incident_form }})
 </div>
 
 ### Admin
 <div class="grid cards" markdown>
-- [Consumables List]({{ links.consumables_list }})
-- [Risk Assessments]({{ links.risk_assessments }})
+- [:material-invoice-list: **Consumables List**]({{ links.consumables_list }})
+- [:material-shield-check: **Risk Assessments**]({{ links.risk_assessments }})
 </div>
