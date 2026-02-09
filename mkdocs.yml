@@ -52,6 +52,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.keys
   - pymdownx.snippets
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -92,3 +93,5 @@ extra:
     website: https://www.hacman.org.uk/
     instagram: https://www.instagram.com/hacmanchester
     visit_us: https://www.hacman.org.uk/visit-us/
+    reimbursement: https://forms.gle/NAwY9UQmAdEzJJzQ7
+    consumables_mega_thread: https://list.hacman.org.uk/t/additions-to-consumables-mega-thread/5471

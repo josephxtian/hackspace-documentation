@@ -8,6 +8,10 @@ nav:
       - getting_started/managing_membership.md
       - "getting_started/*"
   - General info:
+      - general_info/buying_things/index.md
+      - general_info/buying_things/consumables.md
+      - general_info/buying_things/purchase_proposals.md
+      - general_info/buying_things/project_proposals.md
       - "general_info/*"
   - Rules & Policies:
       - rules_policies/index.md
@@ -19,6 +23,6 @@ nav:
       - rules_policies/conduct_complaints.md
       - rules_policies/critical_infrastructure.md
   - Workshop Info:
-      - workshops/index.md
-      - "workshops/*"
+      - workshop_info/index.md
+      - "workshop_info/*"
   - Quick Links: quick_links.md

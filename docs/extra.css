@@ -16,3 +16,22 @@
     aspect-ratio: 16 / 9; /* Maintains the widescreen look */
     border: 0;           /* This replaces frameborder=0 */
 }
+
+/* Define the custom "Further Info" Admonition */
+:root {
+  --md-admonition-icon--further-info: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,14H19V17H22V19H19V22H17V19H14V17H17V14M15,13H5V5H15V13M15,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H12.81C12.3,20.44 12.05,19.74 12.05,19H5V15H15V14.1C15.7,13.47 16.42,13.15 17.15,13.04C17.76,13 18.4,13.06 19,13.2V5A2,2 0 0,0 17,3H15Z"/></svg>');
+}
+.md-typeset .admonition.further-info,
+.md-typeset details.further-info {
+  border-color: #eceb85;
+}
+.md-typeset .further-info > .admonition-title,
+.md-typeset .further-info > summary {
+  background-color: rgba(243, 241, 134, 0.1);
+}
+.md-typeset .further-info > .admonition-title::before,
+.md-typeset .further-info > summary::before {
+  background-color: #eceb85;
+  -webkit-mask-image: var(--md-admonition-icon--further-info);
+        mask-image: var(--md-admonition-icon--further-info);
+}
