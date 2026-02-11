@@ -4,9 +4,9 @@ We encourage members to get involved with upgrading the tools at hackspace, repl
 
 Our spending systems can be divided into three categories:
 
-1. Consumables - Items that degrade through the nature of their use or are disposible. This includes glues, screws, disposible gloves, blades, paper products, electronic components (resistors, etc.), cleaning equipment, oils, etc.
-2. Purchase Proposals - Most other spending in the space. This could include a new hand tool, some new shelves, or a new machine.
-3. Project Spending - Members forming a tean with a stated goal, and asking for a pre-approved budget to achieve that goal, e.g. 'To create a metal fabrication area, including facilities for MIG welding, grinding and finishing steel projects.
+1. [Consumables](./consumables.md) - Items that degrade through the nature of their use or are disposible. This includes glues, screws, disposible gloves, blades, paper products, electronic components (resistors, etc.), cleaning equipment, oils, etc.
+2. [Purchase Proposals](./purchase_proposals.md) - Most other spending in the space. This could include a new hand tool, some new shelves, or a new machine.
+3. [Project Budgets](project_proposals.md) - Members forming a tean with a stated goal, and asking for a pre-approved budget to achieve that goal, e.g. 'To create a metal fabrication area, including facilities for MIG welding, grinding and finishing steel projects.
 
 ### Reimbursement
 
@@ -19,4 +19,13 @@ All reimbursement requests will be validated before payment. Please ensure the i
 
 ### Delivery
 
-Members will need to organise delivery themselves as Hackspace is not staffed and does not have a building conceirge. This could either be by booking the delivery on a day you know you will be at the space, ordering delivery to your home address or arranging with another member for them to accept the delivery.
+Members will need to organise delivery themselves as Hackspace is not staffed and the building does not have a conceirge. This could either be by booking the delivery on a day you know you will be at the space, ordering delivery to your home address or arranging with another member for them to accept the delivery.
+
+Hackspace's address is
+> Hacman, Ground Floor Unit 1,
+> Wellington House
+> Pollard Street East
+> Manchester
+> M40 7FS
+
+The post room isn't secure, and things do go missing. We do not recommend getting things delivered here if you are not present.

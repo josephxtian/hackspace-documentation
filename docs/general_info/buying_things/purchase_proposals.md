@@ -4,7 +4,7 @@ Purchase proposals (PPs) are the way the majority of new tools, machines and thi
 
 We encourage members to think what would be useful, and cool to have at Hackspace rather than what's on sale at this very moment. We would much rather invest £5000 in a cool machine, that will be easy to set up, learn and maintain, comes with a manufacturer warranty and will attract more members, than spend £800 for the black market knock off with dubious safety, frequent down-time and requiring constant volunteer hours to fix. Tools at Hackspace get professional levels of use-hours over their lifetime, so it's important we're buying durable equipment.
 
-Purchase proposals can be put forward by creating a thread in the [“Purchase Proposals” section of the forum]({{ links.forum }}/c/purchase-proposals/).
+Purchase proposals can be put forward by creating a thread in the [“Purchase Proposals” section of the forum]({{ links.forum }}/c/purchase-proposals/) using the draft form (click `New Topic` to load the template).
 
 !!! info
     Purchase proposals should be not change once posted. If there is likely discussion to be had or decisions on what to buy, please have this in a separate thread before posting to the purchase proposal category.
@@ -33,8 +33,6 @@ A proposal is a commitment to the membership that in return for their agreement 
 
 !!! warning
     If a proposal needs to materially change after it has already recieved support, please close the proposal and create a new one. E.g. if you have proposed a woodworking jig then change the size of storage box it will live in, this doesn't change the intent of the proposal, however if you chaged the brand/model of the jig you should raise a new proposal.
-
-The Purchase Proposal System does not currently enable budgeting for loosely-defined purchases. For example, £2000 for a really nice lathe if one comes up at auction. We recognise that whilst we might miss out on good deals because of this, due to the time it would take to author an appropriately detailed proposal and seek approval, we put greater value on making careful & considered purchasing decisions with our collective funds.
 
 ### Approval
 Purchase proposals require member support and board member approval before they are approved for purchase. Levels of support required are grouped by price, see [Proposal Bands](#proposal-bands) below.
@@ -80,7 +78,7 @@ We aim to hold at least 4 members meetings per year (including our Annual Genera
     A large purchase proposal can include suggestions on alternate voting options, which the board will consider during their approval review and will discuss with the author before the proposal’s inclusion in the meeting agenda.
 
 ### Purchase & Delivery
-A proposal is considered approved once a proposal has reached the [required member support & board member approval thresholds](#proposal-bands).
+A proposal is considered approved once a proposal has reached the [required member support & board member approval thresholds](#proposal-bands). Delivery should be arranged by the proposer, see [Delivery](index.md#delivery) for further information.
 
 Purchase proposals are permitted +10% margin to cover any small changes in price since the proposal was made. This should not be used for last minute upselling or alternate purchases.
 
