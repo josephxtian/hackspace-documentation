@@ -1,0 +1,31 @@
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting_started/index.md
+      - getting_started/introduction.md
+      - getting_started/communication.md
+      - getting_started/access.md
+      - getting_started/managing_membership.md
+      - "getting_started/*"
+  - General info:
+      - general_info/reporting_broken_things.md
+      - Buying Things:
+        - general_info/buying_things/index.md
+        - general_info/buying_things/consumables.md
+        - general_info/buying_things/purchase_proposals.md
+        - general_info/buying_things/project_proposals.md
+      - "general_info/*"
+      - general_info/who_to_contact.md
+  - Rules & Policies:
+      - rules_policies/index.md
+      - rules_policies/the_rules.md
+      - rules_policies/health_and_safety.md
+      - rules_policies/membership_t_and_cs.md
+      - rules_policies/member_storage.md
+      - rules_policies/fair_use_policy.md
+      - rules_policies/conduct_complaints.md
+      - rules_policies/critical_infrastructure.md
+  - Workshop Info:
+      - workshop_info/index.md
+      - "workshop_info/*"
+  - Quick Links: quick_links.md
