@@ -8,11 +8,14 @@ nav:
       - getting_started/managing_membership.md
       - "getting_started/*"
   - General info:
-      - general_info/buying_things/index.md
-      - general_info/buying_things/consumables.md
-      - general_info/buying_things/purchase_proposals.md
-      - general_info/buying_things/project_proposals.md
+      - general_info/reporting_broken_things.md
+      - Buying Things:
+        - general_info/buying_things/index.md
+        - general_info/buying_things/consumables.md
+        - general_info/buying_things/purchase_proposals.md
+        - general_info/buying_things/project_proposals.md
       - "general_info/*"
+      - general_info/who_to_contact.md
   - Rules & Policies:
       - rules_policies/index.md
       - rules_policies/the_rules.md

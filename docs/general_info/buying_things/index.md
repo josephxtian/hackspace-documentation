@@ -2,11 +2,12 @@
 
 We encourage members to get involved with upgrading the tools at hackspace, replacing broken tools, and buying consumables. All permitted spending can be reimbursed, so you won't be out of pocket for helping out. Read on to learn what permitted spending covers.
 
-Our spending systems can be divided into three categories:
+Our proposal system is designed to be progressive and provide transparency to the membership of how Hackspace's money is being spent. Our spending systems can be divided into three categories:
 
 1. [Consumables](./consumables.md) - Items that degrade through the nature of their use or are disposible. This includes glues, screws, disposible gloves, blades, paper products, electronic components (resistors, etc.), cleaning equipment, oils, etc.
 2. [Purchase Proposals](./purchase_proposals.md) - Most other spending in the space. This could include a new hand tool, some new shelves, or a new machine.
 3. [Project Budgets](project_proposals.md) - Members forming a tean with a stated goal, and asking for a pre-approved budget to achieve that goal, e.g. 'To create a metal fabrication area, including facilities for MIG welding, grinding and finishing steel projects.
+
 
 ### Reimbursement
 
