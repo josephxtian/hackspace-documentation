@@ -33,8 +33,9 @@ Do not leave projects in workshop areas, even if they are labelled. Have a back 
 ## Prohibited Storage Items
 * Dangerous / Flammable Chemicals.
 * Lithium batteries must be in a safe charging-bag. Lithium charging bags are cheap.
+* Charged Capacitors
 * Illegal items
-* Radioactive Materials
+* Radioactive Material, as defined by the Radioactive Substances Act 1993
 * No live animals or perishable articles including food
 * No genetically modified organisms or chemicals that pose a risk to others.
 

@@ -14,7 +14,10 @@ We do not tolerate harassment in any form. Harassment includes, but may not be l
   * Inappropriate or unrequested photography or recording
   * Sustained or repeated disruption
   * Lack of respect for personal space
+  * Repeated espousing of contentious political views which may cause tension, argument, or discomfort to others
   * Any other action that makes someone uncomfortable
+
+These guidelines apply to our physical space, and all online forms of communication we use, including Telegram and the forum.
 
 We expect anyone asked to stop doing something to stop immediately.
 
