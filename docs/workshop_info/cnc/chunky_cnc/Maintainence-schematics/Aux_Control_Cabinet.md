@@ -1,6 +1,6 @@
 This is the information and schematics doc for the CNC **Auxiliary Control Panel** located on the right side of the enclosure above the emergency stop. 
 
-**ELECTRICAL WARNING: The inside of this panel is 240VAC. This is dangerous voltage and should be unlocked only by competent persons. The cabinet is locked and should be kept locked.**
+**ELECTRICAL WARNING: The inside of this panel is 240VAC. This is dangerous voltage and should be unlocked only by competent persons. The cabinet is locked and should be kept locked. Always switch off and unplug at source before unlocking the panel.**
 
 **WARNING: This panel is critical infrastructure. Maintainers should consult the team leader before opening it. They should also  heed the electrical warning above.**
 
