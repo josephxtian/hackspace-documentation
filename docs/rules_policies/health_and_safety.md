@@ -1,8 +1,8 @@
 # Health & Safety Policy
 
-Creating a safe work environment is all of our responsibilities. You have a personal responsibility to be safe, as well as a responsibility to everybody else.
+Creating a safe work environment is the responsibility of us all. You have a personal responsibility to be safe, as well as a responsibility to everybody else.
 
-We understand things break and accidents happen in the space. The most important thing is that we can learn from them, and improve our training and processes to prevent them happening again. Please report near misses or accidents in the accident report book at the kitchen first aid station or via our report form.
+We understand things break and accidents happen in the space. The most important thing is to learn from them, and improve our training and processes to prevent them happening again. Please report near misses or accidents in the accident report book at the kitchen first aid station or via our report form.
 
 Being safe goes beyond just using tools safely. It includes managing dust and fumes from your project, cleaning up after yourself and storing things correctly. If in doubt, please ask those around you.
 
@@ -11,7 +11,7 @@ Unfortunately there will always be some tasks which simply are not suitable for 
 ## Wear PPE
 Hackspace provides a basic array of PPE for use at the space. You must use any PPE stated as required on the risk assessment for the tool you are using.
 
-If the PPE provided is broken, in poor condition or not there, please email <board@hacman.org.uk> or inform an area coordinator immediately so stock can be replenished.
+If the PPE provided is broken, in poor condition or not there, please email <mike@hacman.org.uk> or inform a team leader immediately so stock can be replenished.
 
 ## Look Out for One Another
 Be aware of your surroundings and communicate risks with others. Let others know if they need to keep a distance from you while you use a tool. If you are about to use a tool that needs ear defenders, dust masks or other PPE, let others around you know and give them chance to get their own.
@@ -28,7 +28,7 @@ If they continue to use the tool in an unsafe way, ask them to stop using it and
  - If there are others around who are competent, see if they'd be willing to show you how to use a tool.
  - Take a break, make a brew and watch some youtube videos to learn how to use something properly.
  - Use the great selection of books in parkspace which form a fantastic learning resource.
- - Ask on the forum if anyone would be willing to meet you and show you how to use the tool.
+ - Ask on the forum or telegram if anyone would be willing to meet you and show you how to use the tool.
 
  You should familiarise yourself with the risks of any tool before you use it. Risk assessments for each tool can be found in the red health and safety folder by the sign up desk, or in our repository of [digital risk assessments]({{ links.risk_assessments }}).
 
@@ -51,13 +51,14 @@ Do not use any tool requiring an induction if you are not inducted on it.
 ### Clean up after yourself
 * Remove all hazards for the next person wanting to use the tool or area.
 * Sweep or mop the floor.
+* Check if you must maintain a presence in the area for a time after you finish the task to mitigate fire risks. (Eg. Welding)
 
 ## Lone working
 Some tools are categorised as 'No Lone Working'. These are typically tools that could cause significant damage to you, impeding your ability to get help.
 
 All of these tools are induction protected, and you will be informed during the induction if this applies. You can also check the [tool page]({{ links.members_portal }}/equipment) on the membership system.
 
-Some examples include: Table saw, all mitre saws, metal mill, CNC mill, all lathes.
+Some examples include: Table saw, all mitre saws, welder, CNC mill, all lathes.
 
 If you are using a no lone working tool, you must find a 'safety partner', and inform them you will be using a no lone working tool. They must be able to hear you from where they are, and you should make sure they understand how to stop the machine in an emergency.
 
