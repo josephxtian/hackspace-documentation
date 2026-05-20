@@ -49,6 +49,18 @@ Videos can be inserted with the following html string. Global css styling is app
     </div>
     ```
 
+### Adding Images
+
+Store image files in the `docs/assets/` folder, then reference them in Markdown using a path relative to the current page.
+
+```markdown
+![Alt text describing the image](../assets/your_image.png)
+```
+
+If your page is at the top level of `docs/`, the path starts with `./assets/`. If it's inside a subfolder, use `../assets/` to go up one level first.
+
+Common image formats supported: `.png`, `.jpg`, `.webp`, `.gif`. Prefer `.webp` for photos and animations as it produces smaller files.
+
 ### Adding External Links
 If an external link may change in future and is going to be refered to on multiple pages of documentation, it can be defined once and referenced everywhere else to make updating dead links easy.
 
