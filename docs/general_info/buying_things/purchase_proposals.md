@@ -55,27 +55,15 @@ Board members may choose to lend their support to a proposal as a general member
 ### Proposal bands
 Purchase proposals are grouped by price, with each band having a different number of independent supporting members/board members to be approved.
 
-|Band|Price Range|Board Approval |Member Support|
+|Band|Price Range|Management Approval |Member Support|
 | --- | --- | :---: | :---: |
-|Micro |£0 to £100|1|2|
-|Small|£100.01 to £250|2|5|
-|Medium|£250.01 to £750|Majority|10|
-|Large|£750.01+|See below|See below|
+|Micro |£0 to £150|1|2|
+|Small|£150.01 to £350|2|5|
+|Medium|£350.01 to £1000|Majority|10|
+|Large|£1000.01+|See below|See below|
 
 ### Large Proposals
-Large purchase proposals represent a significant investment for the Hackspace, and must be taken to the next members meeting for discussion and an in-person vote for approval.
-
-We aim to hold at least 4 members meetings per year (including our Annual General Meeting), and the agenda for each members meeting is published 7 days before the date of the meeting. If a large purchase proposal is made after the meeting’s agenda has been published, it will be added to the agenda of the following meeting instead.
-
-??? further-info "Further Info"
-
-    Large proposals are more likely to benefit from pre-proposal discussion threads, as a failed proposal will have to wait roughly 3 months before any amendments can be voted on again.
-
-    The in-person votes for large purchase proposals work as per the voting rules in our articles of association, with the additional rule that 'A present member can only represent 3 proxy votes.'
-
-    The default voting options for a large purchase proposal will be “Yes”, “No”, and “Abstain”.
-
-    A large purchase proposal can include suggestions on alternate voting options, which the board will consider during their approval review and will discuss with the author before the proposal’s inclusion in the meeting agenda.
+Large purchase proposals represent a significant investment for the Hackspace and need to be fully considered before purchase. Large proposals are more likely to benefit from pre-proposal discussion threads. A large purchase proposal requires board majority consent. The board may call for a members consultation to take place, which could include bringing the proposal to a members meeting.
 
 ### Purchase & Delivery
 A proposal is considered approved once a proposal has reached the [required member support & board member approval thresholds](#proposal-bands). Delivery should be arranged by the proposer, see [Delivery](index.md#delivery) for further information.
