@@ -9,7 +9,7 @@ All members must contribute their fair share of time to keeping Hackspace clean.
 - Refilling paper towel dispensers
 - Refilling blue roll holders
 - Emptying vacuum cleaners
-- Emptying bins
+- [Emptying bins](./bins.md)
 - Wiping surfaces - including the bathroom and kitchen
 - Mopping the floor occassionally, or if you have spilt anything that could cause others to slip
 - Restocking the drinks fridge with the warm cans sat next to it.
