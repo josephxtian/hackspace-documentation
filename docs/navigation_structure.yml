@@ -25,6 +25,7 @@ nav:
       - rules_policies/fair_use_policy.md
       - rules_policies/conduct_complaints.md
       - rules_policies/critical_infrastructure.md
+      - "rules_policies/*"
   - Workshop Info:
       - workshop_info/index.md
       - "workshop_info/*"
