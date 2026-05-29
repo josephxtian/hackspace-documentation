@@ -1,0 +1,67 @@
+backend:
+  name: github
+  # For testing on the dev fork — change to HACManchester/documentation for production
+  repo: josephxtian/hackspace-documentation
+  branch: master
+  base_url: https://hacman-docs-oauth.board-b92.workers.dev
+  auth_endpoint: /auth
+
+# Required: master branch has PR-review protection, so direct pushes would fail.
+# Every save creates a feature branch + PR; directors review and merge on GitHub.
+publish_mode: editorial_workflow
+
+# New media uploads land here; served at /assets/ on the live site
+media_folder: docs/assets
+public_folder: /assets
+
+collections:
+  - name: getting_started
+    label: "Getting Started"
+    folder: docs/getting_started
+    create: true
+    extension: md
+    format: frontmatter
+    fields:
+      - {label: "Content", name: body, widget: markdown}
+
+  - name: general_info
+    label: "General Info"
+    folder: docs/general_info
+    create: true
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 3
+    fields:
+      - {label: "Content", name: body, widget: markdown}
+
+  - name: workshop_info
+    label: "Workshop Info"
+    folder: docs/workshop_info
+    create: true
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 4
+    fields:
+      - {label: "Content", name: body, widget: markdown}
+
+  - name: rules_policies
+    label: "Rules & Policies"
+    folder: docs/rules_policies
+    create: false
+    extension: md
+    format: frontmatter
+    fields:
+      - {label: "Content", name: body, widget: markdown}
+
+  - name: governance
+    label: "Governance & Board Minutes"
+    folder: docs/governance
+    create: true
+    extension: md
+    format: frontmatter
+    nested:
+      depth: 4
+    fields:
+      - {label: "Content", name: body, widget: markdown}
