@@ -5,9 +5,13 @@
  *   GITHUB_CLIENT_ID     — from the GitHub OAuth App
  *   GITHUB_CLIENT_SECRET — from the GitHub OAuth App
  *
+ * Set this as a plain Environment Variable:
+ *   ADMIN_URL — full URL of the Decap CMS admin page
+ *               e.g. https://josephxtian.github.io/hackspace-documentation/admin/
+ *
  * Routes:
  *   GET /auth      → redirect to GitHub authorize
- *   GET /callback  → exchange code for token, postMessage result back to CMS
+ *   GET /callback  → exchange code for token, redirect popup back to admin page
  */
 
 const GITHUB_AUTHORIZE_URL = "https://github.com/login/oauth/authorize";
@@ -37,8 +41,10 @@ function handleAuth(url, env) {
 
 /**
  * GET /callback
- * GitHub redirects here after the user authorizes. We exchange the temporary
- * code for an access token, then postMessage the result back to the CMS window.
+ * GitHub redirects here after the user authorizes. We exchange the code for a
+ * token, then redirect the popup back to the admin page with the token in the
+ * URL hash. The admin page relay script forwards it to Decap CMS via
+ * BroadcastChannel, bypassing the window.opener COOP restriction.
  */
 async function handleCallback(url, env) {
   const code = url.searchParams.get("code");
@@ -62,31 +68,12 @@ async function handleCallback(url, env) {
     if (data.error) throw new Error(data.error_description || data.error);
     token = data.access_token;
   } catch (err) {
-    return postMessagePage(
-      `authorization:github:error:${JSON.stringify({ message: err.message })}`
-    );
+    const adminUrl = new URL(env.ADMIN_URL);
+    adminUrl.hash = `auth_error=${encodeURIComponent(err.message)}&auth_provider=github`;
+    return Response.redirect(adminUrl.toString(), 302);
   }
 
-  // This exact string format is required by Decap CMS
-  return postMessagePage(
-    `authorization:github:success:${JSON.stringify({ token, provider: "github" })}`
-  );
-}
-
-/**
- * Returns an HTML page that calls window.opener.postMessage and closes itself.
- * Decap CMS listens for this message in the main window to complete the login.
- */
-function postMessagePage(message) {
-  const escaped = JSON.stringify(message);
-  const html =
-    `<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>` +
-    `<script>(function(){` +
-    `var m=${escaped};` +
-    `if(window.opener)window.opener.postMessage(m,"*");` +
-    `window.close();` +
-    `})()</s` + `cript></body></html>`;
-  return new Response(html, {
-    headers: { "Content-Type": "text/html;charset=UTF-8" },
-  });
+  const adminUrl = new URL(env.ADMIN_URL);
+  adminUrl.hash = `auth_token=${token}&auth_provider=github`;
+  return Response.redirect(adminUrl.toString(), 302);
 }

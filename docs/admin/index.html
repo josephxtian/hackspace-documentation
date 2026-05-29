@@ -7,6 +7,57 @@
     <meta name="robots" content="noindex" />
   </head>
   <body>
+    <script>
+    // OAuth relay — works around GitHub's COOP headers which null window.opener
+    // when the popup visits github.com, preventing the standard postMessage flow.
+    //
+    // How it works:
+    //   1. The Cloudflare Worker redirects the popup back to THIS page with the
+    //      token in the URL hash (e.g. /admin/#auth_token=gho_xxx&auth_provider=github).
+    //   2. If this page detects an auth_token in the hash, it's the popup relay:
+    //      broadcast the token via BroadcastChannel and close the window.
+    //   3. The main CMS window receives the broadcast and dispatches a synthetic
+    //      MessageEvent that Decap CMS picks up to complete the login.
+    //
+    // If you change the Cloudflare Worker URL, update WORKER_ORIGIN below to match.
+    (function () {
+      var WORKER_ORIGIN = "https://hacman-docs-oauth.board-b92.workers.dev";
+      var CHANNEL = "decap-cms-auth";
+
+      var hash = new URLSearchParams(location.hash.slice(1));
+      var token = hash.get("auth_token");
+      var error = hash.get("auth_error");
+      var provider = hash.get("auth_provider") || "github";
+
+      if (token || error) {
+        // This page was loaded inside the OAuth popup — relay and close.
+        var bc = new BroadcastChannel(CHANNEL);
+        if (token) {
+          bc.postMessage({ token: token, provider: provider });
+        } else {
+          bc.postMessage({ error: decodeURIComponent(error), provider: provider });
+        }
+        bc.close();
+        window.close();
+        return;
+      }
+
+      // Main CMS window — listen for the relay and forward to Decap CMS.
+      var bc = new BroadcastChannel(CHANNEL);
+      bc.onmessage = function (e) {
+        bc.close();
+        var msg = e.data.error
+          ? "authorization:" + e.data.provider + ":error:" +
+            JSON.stringify({ message: e.data.error })
+          : "authorization:" + e.data.provider + ":success:" +
+            JSON.stringify({ token: e.data.token, provider: e.data.provider });
+
+        window.dispatchEvent(
+          new MessageEvent("message", { data: msg, origin: WORKER_ORIGIN })
+        );
+      };
+    })();
+    </script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
