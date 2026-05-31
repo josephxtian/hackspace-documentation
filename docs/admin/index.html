@@ -10,10 +10,16 @@
     <script>
     // OAuth relay — works around GitHub's COOP headers which null window.opener.
     //
-    // Key insight: Decap CMS checks `authWindow.closed` before processing the
-    // auth message. If the popup is closed first, Decap discards the token.
-    // So the popup must stay open while Decap processes the event — we close
-    // it ourselves from the main window after dispatching.
+    // Decap CMS uses a two-step handshake:
+    //   1. Popup sends "authorizing:github" → handshakeCallback sets up authorizeCallback
+    //      and calls authWindow.postMessage("authorizing:github", origin) back to popup.
+    //   2. Popup responds with "authorization:github:success:{token}" → authorizeCallback
+    //      processes the token and closes the popup.
+    //
+    // COOP breaks this because window.opener is null in the popup after visiting github.com.
+    // Fix: BroadcastChannel carries the token from popup to main window; then the main
+    // window simulates both sides of the handshake — it dispatches step 1, and intercepts
+    // authWindow.postMessage (the handshake reply) to dispatch step 2 synthetically.
     //
     // If you change the Cloudflare Worker URL, update WORKER_ORIGIN to match.
     (function () {
@@ -26,8 +32,8 @@
       var provider = hash.get("auth_provider") || "github";
 
       if (token || error) {
-        // POPUP RELAY: broadcast the token and stay open.
-        // The main window closes this popup after processing the auth message.
+        // POPUP RELAY: broadcast the token and stay open (popup must remain open
+        // until Decap CMS's authorizeCallback calls authWindow.close()).
         var bc = new BroadcastChannel(CHANNEL);
         if (token) {
           bc.postMessage({ token: token, provider: provider });
@@ -35,13 +41,10 @@
           bc.postMessage({ error: decodeURIComponent(error), provider: provider });
         }
         bc.close();
-        // Do NOT call window.close() here — popup must stay open so that
-        // Decap CMS's authWindow.closed check passes in the main window.
         return;
       }
 
-      // MAIN WINDOW: intercept window.open so we can close the popup
-      // after Decap CMS has received and processed the auth token.
+      // MAIN WINDOW: intercept window.open to capture the popup reference.
       var _authPopup = null;
       var _origOpen = window.open;
       window.open = function () {
@@ -50,24 +53,46 @@
       };
 
       // Listen for the auth token from the popup relay.
-      // Stored on window to prevent garbage collection dropping the listener.
+      // Stored on window to prevent garbage collection.
       window._decapAuthChannel = new BroadcastChannel(CHANNEL);
       window._decapAuthChannel.onmessage = function (e) {
-        window._decapAuthChannel.close();
-        window._decapAuthChannel = null;
+        if (!e.data) return;
 
-        if (e.data && e.data.token) {
-          // Dispatch the synthetic event while popup is still open —
-          // Decap CMS checks authWindow.closed before processing.
+        if (e.data.error) {
           window.dispatchEvent(new MessageEvent("message", {
-            data: { token: e.data.token, provider: e.data.provider },
+            data: "authorization:github:error:" + JSON.stringify({ message: e.data.error }),
             origin: WORKER_ORIGIN,
           }));
-          // Now safe to close the popup.
-          if (_authPopup && !_authPopup.closed) {
-            _authPopup.close();
-          }
+          return;
         }
+
+        if (!e.data.token) return;
+        var tok = e.data.token;
+        var prov = e.data.provider || "github";
+
+        // The popup is now on the same origin (github.io). Intercept authWindow.postMessage
+        // so that when Decap's handshakeCallback fires it and expects the popup to respond,
+        // we simulate that response with the success message ourselves.
+        if (_authPopup && !_authPopup.closed) {
+          try {
+            _authPopup.postMessage = function (data) {
+              if (typeof data === "string" && data.indexOf("authorizing:") === 0) {
+                window.dispatchEvent(new MessageEvent("message", {
+                  data: "authorization:" + prov + ":success:" + JSON.stringify({ token: tok, provider: prov }),
+                  origin: WORKER_ORIGIN,
+                }));
+              }
+            };
+          } catch (_) { /* cross-origin guard, shouldn't happen */ }
+        }
+
+        // Step 1: simulate the popup sending "authorizing:github".
+        // Decap's handshakeCallback will then call authWindow.postMessage(), which
+        // our override above intercepts to fire the step-2 success event.
+        window.dispatchEvent(new MessageEvent("message", {
+          data: "authorizing:" + prov,
+          origin: WORKER_ORIGIN,
+        }));
       };
     })();
     </script>
