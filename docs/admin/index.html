@@ -53,12 +53,10 @@
         window._decapAuthChannel = null;
 
         if (e.data && e.data.token) {
-          var msg = "authorization:" + e.data.provider + ":success:" +
-                    JSON.stringify({ token: e.data.token, provider: e.data.provider });
           console.log("[CMS Auth] Main: dispatching synthetic event, origin:", WORKER_ORIGIN);
           window.dispatchEvent(
             new MessageEvent("message", {
-              data: msg,
+              data: { token: e.data.token, provider: e.data.provider },
               origin: WORKER_ORIGIN,
             })
           );
