@@ -21,6 +21,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
+    summary: "{{slug}}"
     fields:
       - {label: "Content", name: body, widget: markdown}
 
@@ -30,6 +31,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
+    summary: "{{slug}}"
     nested:
       depth: 3
     fields:
@@ -41,6 +43,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
+    summary: "{{slug}}"
     nested:
       depth: 4
     fields:
@@ -52,6 +55,7 @@ collections:
     create: false
     extension: md
     format: frontmatter
+    summary: "{{slug}}"
     fields:
       - {label: "Content", name: body, widget: markdown}
 
@@ -61,6 +65,7 @@ collections:
     create: true
     extension: md
     format: frontmatter
+    summary: "{{slug}}"
     nested:
       depth: 4
     fields:
