@@ -30,10 +30,8 @@
       var provider = hash.get("auth_provider") || "github";
 
       if (token || error) {
-        // POPUP RELAY: broadcast the result then close after a short delay.
-        // The delay ensures the message reaches the main window and Decap CMS
-        // processes it before the popup closes (Decap polls every ~500ms for
-        // popup closure and cancels auth if it detects the popup closed first).
+        // POPUP RELAY
+        console.log("[CMS Auth] Relay: detected token in hash, broadcasting...");
         var bc = new BroadcastChannel(CHANNEL);
         if (token) {
           bc.postMessage({ token: token, provider: provider });
@@ -41,26 +39,30 @@
           bc.postMessage({ error: decodeURIComponent(error), provider: provider });
         }
         bc.close();
+        console.log("[CMS Auth] Relay: broadcast sent, closing in 800ms");
         setTimeout(function () { window.close(); }, 800);
         return;
       }
 
-      // MAIN WINDOW: listen for the auth result from the popup relay.
-      // Stored on window (not a local var) to prevent garbage collection
-      // causing the listener to be dropped before the message arrives.
+      // MAIN WINDOW
+      console.log("[CMS Auth] Main: setting up BroadcastChannel listener");
       window._decapAuthChannel = new BroadcastChannel(CHANNEL);
       window._decapAuthChannel.onmessage = function (e) {
+        console.log("[CMS Auth] Main: received broadcast", e.data);
         window._decapAuthChannel.close();
         window._decapAuthChannel = null;
 
         if (e.data && e.data.token) {
+          var msg = "authorization:" + e.data.provider + ":success:" +
+                    JSON.stringify({ token: e.data.token, provider: e.data.provider });
+          console.log("[CMS Auth] Main: dispatching synthetic event, origin:", WORKER_ORIGIN);
           window.dispatchEvent(
             new MessageEvent("message", {
-              data: "authorization:" + e.data.provider + ":success:" +
-                    JSON.stringify({ token: e.data.token, provider: e.data.provider }),
+              data: msg,
               origin: WORKER_ORIGIN,
             })
           );
+          console.log("[CMS Auth] Main: synthetic event dispatched");
         }
       };
     })();
