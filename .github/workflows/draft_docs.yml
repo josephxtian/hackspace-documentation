@@ -2,7 +2,7 @@ name: host draft docs for review
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 permissions:
   contents: write
