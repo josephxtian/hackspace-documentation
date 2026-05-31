@@ -9,17 +9,17 @@
   <body>
     <script>
     // OAuth relay — works around GitHub's COOP headers which null window.opener
-    // when the popup visits github.com, preventing the standard postMessage flow.
+    // when the popup visits github.com.
     //
-    // How it works:
-    //   1. The Cloudflare Worker redirects the popup back to THIS page with the
-    //      token in the URL hash (e.g. /admin/#auth_token=gho_xxx&auth_provider=github).
-    //   2. If this page detects an auth_token in the hash, it's the popup relay:
-    //      broadcast the token via BroadcastChannel and close the window.
-    //   3. The main CMS window receives the broadcast and dispatches a synthetic
-    //      MessageEvent that Decap CMS picks up to complete the login.
+    // Flow:
+    //   1. Cloudflare Worker redirects popup to THIS page with token in URL hash.
+    //   2. If hash has auth_token, this is the popup: broadcast the token and
+    //      wait 800ms before closing (gives Decap CMS time to process the message
+    //      before its poll timer detects the popup is closed and cancels auth).
+    //   3. Main CMS window receives the broadcast and dispatches a synthetic
+    //      MessageEvent that Decap CMS picks up to complete login.
     //
-    // If you change the Cloudflare Worker URL, update WORKER_ORIGIN below to match.
+    // If you change the Cloudflare Worker URL, update WORKER_ORIGIN to match.
     (function () {
       var WORKER_ORIGIN = "https://hacman-docs-oauth.board-b92.workers.dev";
       var CHANNEL = "decap-cms-auth";
@@ -30,7 +30,10 @@
       var provider = hash.get("auth_provider") || "github";
 
       if (token || error) {
-        // This page was loaded inside the OAuth popup — relay and close.
+        // POPUP RELAY: broadcast the result then close after a short delay.
+        // The delay ensures the message reaches the main window and Decap CMS
+        // processes it before the popup closes (Decap polls every ~500ms for
+        // popup closure and cancels auth if it detects the popup closed first).
         var bc = new BroadcastChannel(CHANNEL);
         if (token) {
           bc.postMessage({ token: token, provider: provider });
@@ -38,23 +41,27 @@
           bc.postMessage({ error: decodeURIComponent(error), provider: provider });
         }
         bc.close();
-        window.close();
+        setTimeout(function () { window.close(); }, 800);
         return;
       }
 
-      // Main CMS window — listen for the relay and forward to Decap CMS.
-      var bc = new BroadcastChannel(CHANNEL);
-      bc.onmessage = function (e) {
-        bc.close();
-        var msg = e.data.error
-          ? "authorization:" + e.data.provider + ":error:" +
-            JSON.stringify({ message: e.data.error })
-          : "authorization:" + e.data.provider + ":success:" +
-            JSON.stringify({ token: e.data.token, provider: e.data.provider });
+      // MAIN WINDOW: listen for the auth result from the popup relay.
+      // Stored on window (not a local var) to prevent garbage collection
+      // causing the listener to be dropped before the message arrives.
+      window._decapAuthChannel = new BroadcastChannel(CHANNEL);
+      window._decapAuthChannel.onmessage = function (e) {
+        window._decapAuthChannel.close();
+        window._decapAuthChannel = null;
 
-        window.dispatchEvent(
-          new MessageEvent("message", { data: msg, origin: WORKER_ORIGIN })
-        );
+        if (e.data && e.data.token) {
+          window.dispatchEvent(
+            new MessageEvent("message", {
+              data: "authorization:" + e.data.provider + ":success:" +
+                    JSON.stringify({ token: e.data.token, provider: e.data.provider }),
+              origin: WORKER_ORIGIN,
+            })
+          );
+        }
       };
     })();
     </script>
