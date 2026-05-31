@@ -8,16 +8,12 @@
   </head>
   <body>
     <script>
-    // OAuth relay — works around GitHub's COOP headers which null window.opener
-    // when the popup visits github.com.
+    // OAuth relay — works around GitHub's COOP headers which null window.opener.
     //
-    // Flow:
-    //   1. Cloudflare Worker redirects popup to THIS page with token in URL hash.
-    //   2. If hash has auth_token, this is the popup: broadcast the token and
-    //      wait 800ms before closing (gives Decap CMS time to process the message
-    //      before its poll timer detects the popup is closed and cancels auth).
-    //   3. Main CMS window receives the broadcast and dispatches a synthetic
-    //      MessageEvent that Decap CMS picks up to complete login.
+    // Key insight: Decap CMS checks `authWindow.closed` before processing the
+    // auth message. If the popup is closed first, Decap discards the token.
+    // So the popup must stay open while Decap processes the event — we close
+    // it ourselves from the main window after dispatching.
     //
     // If you change the Cloudflare Worker URL, update WORKER_ORIGIN to match.
     (function () {
@@ -30,8 +26,8 @@
       var provider = hash.get("auth_provider") || "github";
 
       if (token || error) {
-        // POPUP RELAY
-        console.log("[CMS Auth] Relay: detected token in hash, broadcasting...");
+        // POPUP RELAY: broadcast the token and stay open.
+        // The main window closes this popup after processing the auth message.
         var bc = new BroadcastChannel(CHANNEL);
         if (token) {
           bc.postMessage({ token: token, provider: provider });
@@ -39,28 +35,38 @@
           bc.postMessage({ error: decodeURIComponent(error), provider: provider });
         }
         bc.close();
-        console.log("[CMS Auth] Relay: broadcast sent, closing in 800ms");
-        setTimeout(function () { window.close(); }, 800);
+        // Do NOT call window.close() here — popup must stay open so that
+        // Decap CMS's authWindow.closed check passes in the main window.
         return;
       }
 
-      // MAIN WINDOW
-      console.log("[CMS Auth] Main: setting up BroadcastChannel listener");
+      // MAIN WINDOW: intercept window.open so we can close the popup
+      // after Decap CMS has received and processed the auth token.
+      var _authPopup = null;
+      var _origOpen = window.open;
+      window.open = function () {
+        _authPopup = _origOpen.apply(this, arguments);
+        return _authPopup;
+      };
+
+      // Listen for the auth token from the popup relay.
+      // Stored on window to prevent garbage collection dropping the listener.
       window._decapAuthChannel = new BroadcastChannel(CHANNEL);
       window._decapAuthChannel.onmessage = function (e) {
-        console.log("[CMS Auth] Main: received broadcast", e.data);
         window._decapAuthChannel.close();
         window._decapAuthChannel = null;
 
         if (e.data && e.data.token) {
-          console.log("[CMS Auth] Main: dispatching synthetic event, origin:", WORKER_ORIGIN);
-          window.dispatchEvent(
-            new MessageEvent("message", {
-              data: { token: e.data.token, provider: e.data.provider },
-              origin: WORKER_ORIGIN,
-            })
-          );
-          console.log("[CMS Auth] Main: synthetic event dispatched");
+          // Dispatch the synthetic event while popup is still open —
+          // Decap CMS checks authWindow.closed before processing.
+          window.dispatchEvent(new MessageEvent("message", {
+            data: { token: e.data.token, provider: e.data.provider },
+            origin: WORKER_ORIGIN,
+          }));
+          // Now safe to close the popup.
+          if (_authPopup && !_authPopup.closed) {
+            _authPopup.close();
+          }
         }
       };
     })();
