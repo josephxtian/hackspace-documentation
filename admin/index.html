@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackspace Manchester Docs — CMS</title>
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <script>
+    // OAuth relay — works around GitHub's COOP headers which null window.opener.
+    //
+    // Decap CMS uses a two-step handshake:
+    //   1. Popup sends "authorizing:github" → handshakeCallback sets up authorizeCallback
+    //      and calls authWindow.postMessage("authorizing:github", origin) back to popup.
+    //   2. Popup responds with "authorization:github:success:{token}" → authorizeCallback
+    //      processes the token and closes the popup.
+    //
+    // COOP breaks this because window.opener is null in the popup after visiting github.com.
+    // Fix: BroadcastChannel carries the token from popup to main window; then the main
+    // window simulates both sides of the handshake — it dispatches step 1, and intercepts
+    // authWindow.postMessage (the handshake reply) to dispatch step 2 synthetically.
+    //
+    // If you change the Cloudflare Worker URL, update WORKER_ORIGIN to match.
+    (function () {
+      var WORKER_ORIGIN = "https://hacman-docs-oauth.board-b92.workers.dev";
+      var CHANNEL = "decap-cms-auth";
+
+      var hash = new URLSearchParams(location.hash.slice(1));
+      var token = hash.get("auth_token");
+      var error = hash.get("auth_error");
+      var provider = hash.get("auth_provider") || "github";
+
+      if (token || error) {
+        // POPUP RELAY: broadcast the token and stay open (popup must remain open
+        // until Decap CMS's authorizeCallback calls authWindow.close()).
+        var bc = new BroadcastChannel(CHANNEL);
+        if (token) {
+          bc.postMessage({ token: token, provider: provider });
+        } else {
+          bc.postMessage({ error: decodeURIComponent(error), provider: provider });
+        }
+        bc.close();
+        return;
+      }
+
+      // MAIN WINDOW: intercept window.open to capture the popup reference.
+      var _authPopup = null;
+      var _origOpen = window.open;
+      window.open = function () {
+        _authPopup = _origOpen.apply(this, arguments);
+        return _authPopup;
+      };
+
+      // Listen for the auth token from the popup relay.
+      // Stored on window to prevent garbage collection.
+      window._decapAuthChannel = new BroadcastChannel(CHANNEL);
+      window._decapAuthChannel.onmessage = function (e) {
+        if (!e.data) return;
+
+        if (e.data.error) {
+          window.dispatchEvent(new MessageEvent("message", {
+            data: "authorization:github:error:" + JSON.stringify({ message: e.data.error }),
+            origin: WORKER_ORIGIN,
+          }));
+          return;
+        }
+
+        if (!e.data.token) return;
+        var tok = e.data.token;
+        var prov = e.data.provider || "github";
+
+        // The popup is now on the same origin (github.io). Intercept authWindow.postMessage
+        // so that when Decap's handshakeCallback fires it and expects the popup to respond,
+        // we simulate that response with the success message ourselves.
+        if (_authPopup && !_authPopup.closed) {
+          try {
+            _authPopup.postMessage = function (data) {
+              if (typeof data === "string" && data.indexOf("authorizing:") === 0) {
+                window.dispatchEvent(new MessageEvent("message", {
+                  data: "authorization:" + prov + ":success:" + JSON.stringify({ token: tok, provider: prov }),
+                  origin: WORKER_ORIGIN,
+                }));
+              }
+            };
+          } catch (_) { /* cross-origin guard, shouldn't happen */ }
+        }
+
+        // Step 1: simulate the popup sending "authorizing:github".
+        // Decap's handshakeCallback will then call authWindow.postMessage(), which
+        // our override above intercepts to fire the step-2 success event.
+        window.dispatchEvent(new MessageEvent("message", {
+          data: "authorizing:" + prov,
+          origin: WORKER_ORIGIN,
+        }));
+      };
+    })();
+    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  </body>
+</html>
