@@ -1,3 +1,7 @@
+---
+title: "Prusa Mk4"
+---
+
 # Prusa Mk4
 
 > There is a manual next to the printers which contains plenty of information on how to use the printers.

@@ -1,3 +1,7 @@
+---
+title: "Polisher"
+---
+
 # Polisher
 
 The polisher is a 1/2HP Naerock benchgrinder with two wheels attached.  

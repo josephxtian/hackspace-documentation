@@ -1,4 +1,8 @@
-﻿Table Saws
+---
+title: "Table Saws"
+---
+
+Table Saws
 ==========
 
 What are they for?

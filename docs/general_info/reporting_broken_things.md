@@ -1,3 +1,7 @@
+---
+title: "Reporting Broken Things"
+---
+
 # Reporting Broken Things
 
 **Things break, and that's ok! The most important thing you can do is [report it]({{ links.broken_equipment_form }}).**

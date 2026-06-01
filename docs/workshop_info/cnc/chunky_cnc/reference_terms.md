@@ -1,3 +1,7 @@
+---
+title: "Machine coordinates reference"
+---
+
 This file is intended to act as a general reference to understand the terms and acronyms in the documentation.
 
 ## Machine coordinates reference

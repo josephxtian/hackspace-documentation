@@ -1,3 +1,7 @@
+---
+title: "Bambu P1S"
+---
+
 **Bambu P1S**
 
 

@@ -1,3 +1,7 @@
+---
+title: "Purchase Proposals"
+---
+
 # Purchase Proposals
 
 Purchase proposals (PPs) are the way the majority of new tools, machines and things are bought for hackspace. Any member can put together a purchase proposal.

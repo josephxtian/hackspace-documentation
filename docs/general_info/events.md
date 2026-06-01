@@ -1,3 +1,7 @@
+---
+title: "Events"
+---
+
 # Events
 Events can be run throughout the year when we have volunteers 
 

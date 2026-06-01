@@ -1,3 +1,7 @@
+---
+title: "CNC Consumables"
+---
+
 
 ## CNC Consumables
 

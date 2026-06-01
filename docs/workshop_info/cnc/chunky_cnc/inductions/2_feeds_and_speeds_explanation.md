@@ -1,3 +1,7 @@
+---
+title: "Feeds & Speeds"
+---
+
 # Feeds & Speeds
 
 **Detailed Feeds & Speeds information for new users**

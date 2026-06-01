@@ -1,3 +1,7 @@
+---
+title: "Who to Contact"
+---
+
 # Who to Contact
 
 The Hackspace is member run community, so for most things you'll want to speak to regular members via the [forum]({{ links.forum }}) or [telegram]({{ links.telegram }}). See our [communication page](../getting_started/communication.md) for more information.

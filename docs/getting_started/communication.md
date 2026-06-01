@@ -1,3 +1,7 @@
+---
+title: "Communications"
+---
+
 # Communications
 
 Manchester Hackspace is a busy community. We use a few different tools to stay organised.

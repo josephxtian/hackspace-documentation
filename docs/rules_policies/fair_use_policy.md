@@ -1,3 +1,7 @@
+---
+title: "Fair Use Policy"
+---
+
 # Fair Use Policy
 
 Together we provide a space that is available 24 hours a day, where members can design, make, learn, share and socialise, and we think we do this at a very fair price.

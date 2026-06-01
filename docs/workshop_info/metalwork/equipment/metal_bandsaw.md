@@ -1,3 +1,7 @@
+---
+title: "Metal Bandsaw"
+---
+
 # Metal Bandsaw
 
 The bandsaw is a Clarke CBS45M, a convertable horizontal / vertical

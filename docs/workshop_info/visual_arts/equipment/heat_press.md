@@ -1,3 +1,7 @@
+---
+title: "Heat Press & Dye Sublimation Printing"
+---
+
 
 # Heat Press & Dye Sublimation Printing 
 

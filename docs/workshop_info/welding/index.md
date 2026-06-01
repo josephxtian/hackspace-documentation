@@ -1,3 +1,7 @@
+---
+title: "About"
+---
+
 # About
 
 This is a dedicated welding/grinding area, equipped with essential tools and safety gear, it offers a practical

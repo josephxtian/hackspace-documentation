@@ -1,3 +1,7 @@
+---
+title: "Critical Infrastructure Policy"
+---
+
 # Critical Infrastructure Policy
 
 We have numerous assets that we consider critical infrastructure, and that members must not work on or make changes to themselves.

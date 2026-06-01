@@ -1,3 +1,7 @@
+---
+title: "Waste Disposal"
+---
+
 # Waste Disposal
 
 Waste disposal is managed by our Landlord. Bins are provided for the disposal of domestic waste only. If a bin is getting full please empty it into the building bins and replace the bin bag.

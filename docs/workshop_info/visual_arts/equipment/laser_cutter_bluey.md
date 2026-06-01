@@ -1,3 +1,7 @@
+---
+title: "Upgrade training"
+---
+
 The Blue Laser Cutter is usable by members who have had an induction.
 
 ## 

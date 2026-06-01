@@ -1,3 +1,7 @@
+---
+title: "Banned Tools"
+---
+
 # Banned Tools
 Placeholder
 

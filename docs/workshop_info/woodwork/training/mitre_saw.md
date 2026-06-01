@@ -1,3 +1,7 @@
+---
+title: "Sliding Mitre Saws"
+---
+
 Sliding Mitre Saws
 ==================
 

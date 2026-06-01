@@ -1,3 +1,7 @@
+---
+title: "Buying Things"
+---
+
 # Buying Things
 
 We encourage members to get involved with upgrading the tools at hackspace, replacing broken tools, and buying consumables. All permitted spending can be reimbursed, so you won't be out of pocket for helping out. Read on to learn what permitted spending covers.

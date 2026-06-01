@@ -1,3 +1,7 @@
+---
+title: "Metal Lathe"
+---
+
 # Metal Lathe
 
 We have three metal lathes at the Hackspace

@@ -1,3 +1,7 @@
+---
+title: "Tools & Equipment"
+---
+
 # Tools & Equipment
 All tools have risks. If you see an unsafe tool, or a tool being used unsafely, tell the person to stop using the tool and explain why if you are able. We’re all learning in Hackspace, and it’s important you are friendly and respectful in your manner.
 

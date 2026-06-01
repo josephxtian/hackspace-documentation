@@ -1,3 +1,7 @@
+---
+title: "Laser Cutter"
+---
+
 # Laser Cutter
 
 The Orange Laser Cutter is usable by members who have had an induction.

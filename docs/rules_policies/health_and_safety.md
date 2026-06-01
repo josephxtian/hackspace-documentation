@@ -1,3 +1,7 @@
+---
+title: "Health & Safety Policy"
+---
+
 # Health & Safety Policy
 
 Creating a safe work environment is all of our responsibilities. You have a personal responsibility to be safe, as well as a responsibility to everybody else.

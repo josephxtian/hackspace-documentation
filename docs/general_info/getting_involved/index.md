@@ -1,3 +1,7 @@
+---
+title: "Getting Involved"
+---
+
 # Getting Involved
 
 Everyone at Hackspace has their part to play in keeping our community running. It is vital that you respect this, and make time to help out.

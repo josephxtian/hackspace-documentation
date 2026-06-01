@@ -1,3 +1,7 @@
+---
+title: "Metalwork Consumables"
+---
+
 ## Metalwork Consumables
 
 | Item                               | Preferred Supplier | Notes |

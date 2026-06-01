@@ -1,3 +1,7 @@
+---
+title: "Angle Grinders"
+---
+
 # Angle Grinders
 
 ## Lumberjack Electric Heavy Duty Trade Angle Grinder 115mm

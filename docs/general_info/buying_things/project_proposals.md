@@ -1,3 +1,7 @@
+---
+title: "Project Budgets"
+---
+
 # Project Budgets
 
 Project budgets encourage members to get together to improve Hackspace and make ideas a reality.

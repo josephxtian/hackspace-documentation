@@ -1,3 +1,7 @@
+---
+title: "Pillar Drill"
+---
+
 # Pillar Drill
 
 There are two pillar drills in Metalwork

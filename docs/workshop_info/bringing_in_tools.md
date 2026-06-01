@@ -1,3 +1,7 @@
+---
+title: "Bringing in Tools"
+---
+
 # Bringing in Tools
 Members may wish to bring in their own equipment and tools for use in the space. If an item already exists in the space then it is likely covered by our risk assessments. If your item presents no additional risks then it can be used in the space.
 

@@ -1,3 +1,7 @@
+---
+title: "Induction Information"
+---
+
 # Induction Information
 
 Hello, Test inductions are now happening. You can signup by contacting me. 

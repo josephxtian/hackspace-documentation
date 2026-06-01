@@ -1,3 +1,7 @@
+---
+title: "Calibrating the Flow Rate"
+---
+
 # Calibrating the Flow Rate
 
 One of the ways we can test the flow rate of the gas through the welder

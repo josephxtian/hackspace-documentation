@@ -1,3 +1,7 @@
+---
+title: "Rules of Membership"
+---
+
 # Rules of Membership
 All members are bound by these rules as a condition of membership.
 

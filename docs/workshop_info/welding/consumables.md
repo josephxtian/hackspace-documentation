@@ -1,3 +1,7 @@
+---
+title: "Consumables"
+---
+
 # Consumables
 
 This page includes a list of consumables for Welding.

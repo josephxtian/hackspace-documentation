@@ -1,3 +1,7 @@
+---
+title: "Welding Machines"
+---
+
 # Welding Machines
 
 ## XTM 201Di

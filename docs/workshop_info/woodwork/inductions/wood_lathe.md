@@ -1,3 +1,7 @@
+---
+title: "Wood Lathe"
+---
+
 Wood Lathe
 ==========
 

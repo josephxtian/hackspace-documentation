@@ -21,8 +21,8 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    summary: "{{slug}}"
     fields:
+      - {label: "Title", name: title, widget: string}
       - {label: "Content", name: body, widget: markdown}
 
   - name: general_info
@@ -31,10 +31,10 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    summary: "{{slug}}"
     nested:
       depth: 3
     fields:
+      - {label: "Title", name: title, widget: string}
       - {label: "Content", name: body, widget: markdown}
 
   - name: workshop_info
@@ -43,10 +43,10 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    summary: "{{slug}}"
     nested:
       depth: 4
     fields:
+      - {label: "Title", name: title, widget: string}
       - {label: "Content", name: body, widget: markdown}
 
   - name: rules_policies
@@ -55,8 +55,8 @@ collections:
     create: false
     extension: md
     format: frontmatter
-    summary: "{{slug}}"
     fields:
+      - {label: "Title", name: title, widget: string}
       - {label: "Content", name: body, widget: markdown}
 
   - name: governance
@@ -65,8 +65,8 @@ collections:
     create: true
     extension: md
     format: frontmatter
-    summary: "{{slug}}"
     nested:
       depth: 4
     fields:
+      - {label: "Title", name: title, widget: string}
       - {label: "Content", name: body, widget: markdown}

@@ -1,3 +1,7 @@
+---
+title: "Prusa XL"
+---
+
 # Prusa XL
 
 

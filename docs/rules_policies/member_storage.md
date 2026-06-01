@@ -1,3 +1,7 @@
+---
+title: "Storage Policy"
+---
+
 # Storage Policy
 The space provides limited short-term storage for active projects. All stored items should be on a shelf in members storage or in large project storage. When your project is finished or inactive, please free your shelf up for others.
 

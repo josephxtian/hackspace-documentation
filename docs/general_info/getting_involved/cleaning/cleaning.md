@@ -1,3 +1,7 @@
+---
+title: "Cleaning"
+---
+
 # Cleaning
 
 All members must contribute their fair share of time to keeping Hackspace clean. You must ensure you leave anywhere you have used tidy, and ideally better than you found it.

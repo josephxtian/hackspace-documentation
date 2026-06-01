@@ -1,3 +1,7 @@
+---
+title: "Table Saw"
+---
+
 Table Saw
 =========
 

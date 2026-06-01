@@ -1,3 +1,7 @@
+---
+title: "Mitre Saws"
+---
+
 Mitre Saws
 ==========
 

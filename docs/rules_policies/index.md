@@ -1,3 +1,7 @@
+---
+title: "Rules & Policies"
+---
+
 # Rules & Policies
 
 Our rules and policies are in place to ensure that the community can exist safely and cohesively. We have ten overarching rules, and everyone at Manchester Hackspace must ensure they understand and comply with these rules.

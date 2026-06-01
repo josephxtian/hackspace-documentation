@@ -1,3 +1,7 @@
+---
+title: "Emergency procedures"
+---
+
 # Emergency procedures
 
 Whilst a serious incident is unlikely in the space, we have procedures in place to keep you safe.

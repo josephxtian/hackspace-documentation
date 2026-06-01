@@ -1,3 +1,7 @@
+---
+title: "Introduction"
+---
+
 # Introduction
 Hackspace Manchester is a space for people who enjoy making things and being involved in a community.
 

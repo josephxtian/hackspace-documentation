@@ -1,3 +1,7 @@
+---
+title: "Managing Your Membership"
+---
+
 # Managing Your Membership
 
 Your membership is managed via the self-service [membership portal]({{ links.members_portal }}).

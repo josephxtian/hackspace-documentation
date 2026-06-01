@@ -1,3 +1,7 @@
+---
+title: "Consumables"
+---
+
 # Consumables
 
 We aim to maintain a stock of useful consumables for members to use. Approved cosumables are on the [consumables list]({{ links.consumables_list }}), along with the pre-approved cost, permitted purchase level and recommended supplier.

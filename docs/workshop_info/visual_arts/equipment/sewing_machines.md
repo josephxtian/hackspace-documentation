@@ -1,3 +1,7 @@
+---
+title: "Sewing Machines"
+---
+
 # Sewing Machines
 
 Currently, we have a Lervia 564 sewing machine, and a Singer 4423 Heavy

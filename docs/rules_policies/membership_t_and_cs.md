@@ -1,3 +1,7 @@
+---
+title: "Terms and Conditions of Membership"
+---
+
 # Terms and Conditions of Membership
 
 The following terms and conditions apply to all members of Manchester Hackspace.

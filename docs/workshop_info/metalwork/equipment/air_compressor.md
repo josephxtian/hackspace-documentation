@@ -1,3 +1,7 @@
+---
+title: "Mobile Compressor"
+---
+
 # Mobile Compressor
 
 We have two air compressors at the Hackspace, a large fixed 150L and a smaller 50L portable one

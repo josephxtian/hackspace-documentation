@@ -1,3 +1,7 @@
+---
+title: "Pillar Drills"
+---
+
 # Pillar Drills
  We have one Pillar Drill in the wood workshop
 

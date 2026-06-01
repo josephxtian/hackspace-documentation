@@ -1,3 +1,7 @@
+---
+title: "XTM 201Di Inverter MIG"
+---
+
 XTM 201Di Inverter MIG
 ======================
 
