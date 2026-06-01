@@ -31,8 +31,28 @@ collections:
     create: true
     extension: md
     format: frontmatter
+    fields:
+      - {label: "Title", name: title, widget: string}
+      - {label: "Content", name: body, widget: markdown}
+
+  - name: buying_things
+    label: "General Info › Buying Things"
+    folder: docs/general_info/buying_things
+    create: true
+    extension: md
+    format: frontmatter
+    fields:
+      - {label: "Title", name: title, widget: string}
+      - {label: "Content", name: body, widget: markdown}
+
+  - name: getting_involved
+    label: "General Info › Getting Involved"
+    folder: docs/general_info/getting_involved
+    create: true
+    extension: md
+    format: frontmatter
     nested:
-      depth: 3
+      depth: 2
     fields:
       - {label: "Title", name: title, widget: string}
       - {label: "Content", name: body, widget: markdown}
