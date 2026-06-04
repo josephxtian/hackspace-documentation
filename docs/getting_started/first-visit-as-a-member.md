@@ -10,5 +10,3 @@ Most of our lights need turning on and off manually. Nearly all the light switch
 ## Toilets
 
 We have two toilets. 'The Executive Bathroom' is located immediately to the left as you enter the space. This is accessible, has a sanitary bin, and is also where most of our cleaning consumables are stored.
-
-The other toilet is located at the other end of Hackspace, opposite the 'messy sink'.
