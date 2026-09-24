@@ -1,0 +1,16 @@
+title: 3D Printers (FDM)
+nav:
+  - Overview: index.md
+  - Self-Induction Handbook: induction.md
+  - Printer Rules: printer_rules.md
+  - Getting Started: getting_started.md
+  - Filament Guide: filament.md
+  - Slicing Guides:
+      - PrusaSlicer: prusaslicer.md
+      - Bambu Studio: bambu_studio.md
+  - Printer Reference:
+      - Prusa MK4: prusa_mk4.md
+      - Bambu P1S and P2S: bambu_p1s_p2s.md
+      - AMS 2 Pro: ams2pro.md
+      - Connect Your Computer to the Printers: connecting.md
+  - Troubleshooting: troubleshooting.md

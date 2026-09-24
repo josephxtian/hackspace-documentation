@@ -2,128 +2,45 @@
 title: "Prusa Mk4"
 ---
 
-# Prusa Mk4
+# Using the Prusa MK4
 
-> There is a manual next to the printers which contains plenty of information on how to use the printers.
+General rules and preparation are covered in [Getting Started](getting_started.md). This page contains Prusa-specific operation. Network addresses and keys are kept on [Connect Your Computer to the Printers](connecting.md).
 
-## Basic safety information
+<figure markdown="1">
+  ![HacMan Prusa MK4 printer](images/fdm-prusa-mk4-front.jpg)
+  <figcaption>One of the HacMan Prusa MK4 printers.</figcaption>
+</figure>
 
-**Hot Surfaces- 290°C extruder tip, 120°C heated bed**
-Careful of hand placement when pre-heated.
-Molten plastic present when in use! It will stick to skin! Use a tool to
-remove.
+## Slicing
 
-**Unexpected motion-Self calibrates**
-Tie back hair when using.
-Remove jewellery.
-Ensure no one is near moving parts before starting a print.
+Use PrusaSlicer and the approved HacMan **Prusa MK4, 0.4 mm nozzle** profile. Follow the [PrusaSlicer beginner guide](prusaslicer.md).
 
-## How to setup the MK4's **with** PrusaSlicer and print
+## Loading filament
 
-Download [PrusaSlicer](https://www.prusa3d.com/en/page/prusaslicer_424/?)
+1. Put the spool on the holder so it can turn freely.
+2. Cut a damaged or bent filament end cleanly.
+3. Select the printer's load-filament function.
+4. Insert the filament when prompted and feed gently until the extruder takes it.
+5. Confirm that clean filament emerges from the nozzle.
 
----
+Use the unload-filament function before removing a spool. Never pull filament out by force. Secure the free end immediately.
 
-Click "add/remove presets""
+<figure markdown="1">
+  ![Filament entering the Prusa MK4 extruder](images/fdm-prusa-mk4-filament-entering-extruder.jpg)
+  <figcaption>Feed filament gently into the Prusa MK4 extruder when prompted.</figcaption>
+</figure>
 
-![f](../../images/3D-Printers/p4_add.png)
+## Starting a print
 
----
+On a HacMan PC, select the intended physical printer and use the bottom-right **G** button after slicing and checking Preview. Personal computers can be configured using [the connection instructions](connecting.md). USB export remains an acceptable fallback.
 
-Select MK4 with or without [Input Shaping](https://help.prusa3d.com/article/input-shaper-mk4-xl-mini-_451816)
+Heating, homing, bed probing and purging are normal. Keep clear and watch the complete first layer.
 
-![](../../images/3D-Printers/P4_1.png)
+<figure markdown="1">
+  ![PrusaSlicer G button send dialog](images/fdm-prusaslicer-g-button-send-to-printer.png)
+  <figcaption>On a HacMan PC, use the bottom-right G button after slicing to send the job to the selected Prusa printer.</figcaption>
+</figure>
 
----
+## Faults
 
-Press "add physical printer"
-
-![](../../images/3D-Printers/p4_physical.png)
-
----
-
-Then add in the following details
-
-| Name    | IP-Address   | Prusa-Link Key  |
-| ------- | ------------ | --------------- |
-| Kim     | 172.16.0.123 | dmAPJnhhJ37VXBV |
-| Romanov | 172.16.0.124 | JZXE4a9SUKAKWEw |
-
-![dd](../../images/3D-Printers/P4_3.png)
-
----
-
-### Printing from PrusaSlicer
-
-Pressing the button next to "export g code" will send your file to a physical printer, if it doesn't work make sure you have a physical printer selected and not a generic preset.
-
-![ff](../../images/3D-Printers/P4_6.png)
-
-## Using the Prusa's **without** PrusaSlicer
-
-It is perfectly fine if you want to use the Prusa's with a different slicer or [custom G-code.](https://fullcontrol.xyz/)
-
-Simply visit the IP-Address from Printer Connection Information to use [PrusaLink.](https://help.prusa3d.com/guide/wi-fi-and-prusalink-setup-mk4-mk3-9-xl-mini-_413293#416077)
-
-Use "maker" as the username and the Prusa-Link key as the password.
-
-| username | IP-Address   | Prusa-Link Key  |
-| -------- | ------------ | --------------- |
-| maker    | 172.16.0.123 | dmAPJnhhJ37VXBV |
-| maker    | 172.16.0.124 | JZXE4a9SUKAKWEw |
-
-![3.png](../../images/3D-Printers/P4_4.png)
-
----
-
-## Changing filament
-
-To UNLOAD previous filament:
-
-1. Navigate to Filament → Unload filament, and confirm selection,
-   Printer will preheat, and filament will be ejected once temperature
-   reached.
-   
-
-2. Once ejection complete, remove the filament by hand and wrap the
-   spool up properly for the next Maker.
-
-
-
-To LOAD filament:
-
-1. Place a filament spool on the spool holder,
-   
-
-2. Unhook the end, but keep light tension on it,
-   
-
-3. Trim the end into a sharp point with cutters,
-   
-
-4. Thread the end through the filament guide and into the top of the
-   extruder.
-   
-
-5. Navigate to Filament → Load Filament and confirm selection.
-   
-
-6. Select the material you are trying to Load, and confirm.
-   
-
-7. Wait for pre-heat to complete.
-   
-
-8. Press rotary knob to start feeding filament, and lightly push the
-   
-
-9. filament into the extruder until it starts pulling the filament by itself.
-   
-
-10. Wait for printer to stop pulling filament and:
-    
-
-11. Confirm if you see your new filament being extruded,
-    
-
-12. Purge more if the colour hasn’t fully changed.
+Do not adjust belts, move axes by force, replace nozzles, clear mechanical jams or alter hardware. Stop and report the problem.
