@@ -65,7 +65,7 @@ The board of directors reserve the right to restrict or terminate membership of 
 
 Where a complaint is either about a director or submitted by a director, the complaint will be reviewed by uninvolved directors. In the exceptional case where it is not believed two directors can review the case impartially, a trusted member may be asked to assist with the review.
 
-Where cases are discussed in board meetings, they will be referred to by case number. No identifying personal information will be minuted about the reporter nor reportee. Our disciplinary process is always carried out inline with our [privacy notice](../05_governance/legal_notices/privacy_notice.md).
+Where cases are discussed in board meetings, they will be referred to by case number. No identifying personal information will be minuted about the reporter nor reportee. Our disciplinary process is always carried out inline with our [privacy notice](../governance/legal_notices/privacy_notice.md).
 
 ## Incident Report Form
 

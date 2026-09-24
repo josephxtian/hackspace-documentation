@@ -15,4 +15,4 @@ To get to the bins, leave through the front door and turn left. Take a left down
 
 The bin store is secured with a code lock, the **passcode** can be found on a notice on the inside of our front doors.
 
-![The building bins are around the side of the building](..\assets\bin_location.png)
+![The building bins are around the side of the building](../../assets/bin_location.png)

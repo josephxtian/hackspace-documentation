@@ -28,7 +28,7 @@ There is no high or medium risk asbestos in the space. There are a number of old
 
 Please see the pdfs below for our own asbestos survey of the space alongside the wider asbestos survey for the entire building as carried out by the landlords
 
-[Wellington House Full Survey - 2018](../06_internal/asbestos/asbestos_wellingtonhouse.pdf)
+[Wellington House Full Survey - 2018](../internal/asbestos/asbestos_wellingtonhouse.pdf)
 
 
-[Hackspace Manchester Survey - 2019](../06_internal/asbestos/asbestos_hacman.pdf) - Carried out by 0800 Asbestos. 
+[Hackspace Manchester Survey - 2019](../internal/asbestos/asbestos_hacman.pdf) - Carried out by 0800 Asbestos. 

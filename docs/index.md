@@ -16,7 +16,7 @@ Please help us keep this wiki current by suggesting imporvements and edits to ou
 -   :material-scale-balance:{ .lg .middle } __The Legal Stuff__
     ---
     Our T&Cs, Articles of Association, Membership Agreement, and Governance Docs.
-    [:octicons-arrow-right-24: Governance](05_governance/constitution.md)
+    [:octicons-arrow-right-24: Governance](governance/constitution.md)
 
 -   :material-gavel:{ .lg .middle } __Our Rules__
     ---
@@ -29,8 +29,8 @@ Please help us keep this wiki current by suggesting imporvements and edits to ou
 ### Quick Links
 <div class="grid cards" markdown>
 -  [:material-account-multiple-plus-outline: **Visit & Join Us**]({{ links.visit_us }})
--  [:material-alert-octagon: **Report a Broken Tool**](05-procedures/reporting-an-issue.md)
--  [:material-tools: **Browse Workshop Areas**](03-workshops/index.md)
--  [:material-currency-gbp: **Membership Dues**](04-governance/finance-policy.md)
+-  [:material-alert-octagon: **Report a Broken Tool**](general_info/reporting_broken_things.md)
+-  [:material-tools: **Browse Workshop Areas**](workshop_info/index.md)
+-  [:material-currency-gbp: **Membership Dues**](rules_policies/membership_t_and_cs.md)
 -  [:material-lead-pencil: **Add and Update this documentation**](./adding_documentation.md)
 </div>

@@ -18,7 +18,7 @@ From the portal you can:
 ## Pausing Your Membership
 Our membership fees are kept low as we base them on rolling subscriptions. Though we discourage it, if you need to pause your membership, this can be done in the same way as [cancelling your membership](#cancelling-your-membership). Your access to the space will be paused at the date of your next direct debit payment.
 
-Your membership account and a record of all your inductions will remain until your account is deleted in line with our [privacy policy](../05_governance/legal_notices/privacy_notice.md). Depending on the length of pause, you may be asked to repeat inductions on tools, or repeat the open evening tour.
+Your membership account and a record of all your inductions will remain until your account is deleted in line with our [privacy policy](../governance/legal_notices/privacy_notice.md). Depending on the length of pause, you may be asked to repeat inductions on tools, or repeat the open evening tour.
 
 !!! warning
     Paused members do not benefit from use of project storage. Ensure you remove anything you have stored at the space.
