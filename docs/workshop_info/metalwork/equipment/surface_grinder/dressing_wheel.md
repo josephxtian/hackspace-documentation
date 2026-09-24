@@ -17,4 +17,4 @@ This could potentially shatter the wheel.
 
 ///
 
-![Wheel Direction](images/wheel-dress1.jpg)
+![Wheel Direction](images/wheel_dress1.jpg)

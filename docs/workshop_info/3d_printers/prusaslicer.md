@@ -19,7 +19,7 @@ In the printer selector, choose the HacMan profile for the correct **Prusa MK4 w
 ⚠ **Check:** Never slice for a different printer or nozzle size. The virtual plate should match the printer you intend to use.
 
 <figure markdown="1">
-  ![PrusaSlicer physical printer selection](images/fdm-prusaslicer-printer-selection-add-remove-printers.png)
+  ![PrusaSlicer physical printer selection](images/fdm_prusaslicer_printer_selection_add_remove_printers.png)
   <figcaption>Select the correct HacMan Prusa MK4 physical printer before slicing or sending a print.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ First consider rotating the model so fewer areas need support. If support is sti
 Supports consume extra filament, increase print time and can mark the supported surface. Inspect them in Preview and ask for help if they appear inside a cavity where they will be difficult to remove.
 
 <figure markdown="1">
-  ![PrusaSlicer support material settings](images/fdm-prusaslicer-support-material-settings.png)
+  ![PrusaSlicer support material settings](images/fdm_prusaslicer_support_material_settings.png)
   <figcaption>Support settings are in Print Settings → Support material. Supports are used when a model has overhangs that would otherwise print into mid-air.</figcaption>
 </figure>
 
@@ -71,12 +71,12 @@ The outer shell is formed from **perimeters**, also called walls. Adding walls i
 - remember that print orientation matters: layer-to-layer strength is usually the weakest direction.
 
 <figure markdown="1">
-  ![PrusaSlicer infill settings](images/fdm-prusaslicer-infill-settings.png)
+  ![PrusaSlicer infill settings](images/fdm_prusaslicer_infill_settings.png)
   <figcaption>Infill settings are in Print Settings → Infill. Fill density controls how much internal structure the print has.</figcaption>
 </figure>
 
 <figure markdown="1">
-  ![PrusaSlicer layers and perimeters settings](images/fdm-prusaslicer-layers-and-perimeters-strength-settings.png)
+  ![PrusaSlicer layers and perimeters settings](images/fdm_prusaslicer_layers_and_perimeters_strength_settings.png)
   <figcaption>Perimeter settings are in Print Settings → Layers and perimeters. Increasing perimeters is often a good way to improve part strength.</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ A **brim** is a thin, single-layer border attached to the bottom edge of the mod
 Use a brim when the model has a small footprint or is likely to lift. It must be removed after printing and may leave a small edge to tidy, so it is unnecessary for a broad, stable model that already adheres well.
 
 <figure markdown="1">
-  ![PrusaSlicer skirt and brim settings](images/fdm-prusaslicer-skirt-and-brim-settings.png)
+  ![PrusaSlicer skirt and brim settings](images/fdm_prusaslicer_skirt_and_brim_settings.png)
   <figcaption>Skirt and brim settings are in Print Settings → Skirt and brim. A brim can help small or narrow parts stay attached to the build plate.</figcaption>
 </figure>
 
@@ -115,7 +115,7 @@ On a HacMan PC, select the required machine from the **Physical printer** select
 Confirm that the physical printer name is correct before sending. Do not send to a machine that is already in use or marked out of service. At the printer, check that the received filename, thumbnail and estimated time match the intended job before starting it.
 
 <figure markdown="1">
-  ![PrusaSlicer G button send dialog](images/fdm-prusaslicer-g-button-send-to-printer.png)
+  ![PrusaSlicer G button send dialog](images/fdm_prusaslicer_g_button_send_to_printer.png)
   <figcaption>On the Hackspace PCs, once a physical Prusa printer is selected, use the G button in the bottom-right to send the file to the printer.</figcaption>
 </figure>
 

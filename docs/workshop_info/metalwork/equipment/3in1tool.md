@@ -41,6 +41,6 @@ Under no circumstances shoud the machine be used to cut or bend metal rods, bar,
 9:27 – Other useful tips
 
 ## Manuals
-We have the [official Warco manual](images/7024%20FORMIT%2030%20inch%20(Shear,%20Brake%20&%20Roll).pdf), which isn't great.  
+We have the [official Warco manual](images/7024_formit_30_inch_shear_brake_roll.pdf), which isn't great.  
 
-We also have a [manual for an equivalent Clarke tool](images/SBR760B%20Sheet%20Metal%20Bender_(051216031)_(6560031)%20(1).pdf). This is much more useful and has diagrams, plus tips for various sheet metal working processes.
+We also have a [manual for an equivalent Clarke tool](images/sbr760b_sheet_metal_bender.pdf). This is much more useful and has diagrams, plus tips for various sheet metal working processes.

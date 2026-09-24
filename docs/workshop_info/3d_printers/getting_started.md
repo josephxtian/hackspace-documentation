@@ -25,7 +25,7 @@ Slice the model and inspect the preview. Check the estimated time and filament u
 - No previous print, tool or debris in the build area
 
 <figure markdown="1">
-  ![Clean and tidy Prusa MK4 ready to print](images/fdm-prusa-mk4-clean-tidy-ready.jpg)
+  ![Clean and tidy Prusa MK4 ready to print](images/fdm_prusa_mk4_clean_tidy_ready.jpg)
   <figcaption>Leave printers clean, tidy and ready for the next member.</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Slice the model and inspect the preview. Check the estimated time and filament u
 Start the job and remain beside the printer until the first layer is complete. Stop if the filament does not stick, the print lifts, spaghetti forms, feeding stops or the printer behaves unexpectedly.
 
 <figure markdown="1">
-  ![Good first layer example](images/fdm-good-first-layer.png)
+  ![Good first layer example](images/fdm_good_first_layer.png)
   <figcaption>A good first layer should be smooth and firmly attached to the build plate.</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ A competent member must remain in the Hackspace for the entire print.
 Let the plate cool where possible. Remove it from the printer and flex it gently away from people. Clean, dry and refit it squarely.
 
 <figure markdown="1">
-  ![Removing a build plate from the printer](images/fdm-build-plate-lift-off.jpg)
+  ![Removing a build plate from the printer](images/fdm_build_plate_lift_off.jpg)
   <figcaption>Remove the build plate from the printer before flexing it to release a print.</figcaption>
 </figure>
 
@@ -54,6 +54,6 @@ Let the plate cool where possible. Remove it from the printer and flex it gently
 Remove waste, return tools, secure filament ends, report faults and pay 4p per gram through Snackspace for all Hackspace filament used.
 
 <figure markdown="1">
-  ![3D printer area tools and bin](images/fdm-3d-area-tools-and-bin.jpg)
+  ![3D printer area tools and bin](images/fdm_3d_area_tools_and_bin.jpg)
   <figcaption>Return tools and dispose of waste before leaving the printer area.</figcaption>
 </figure>

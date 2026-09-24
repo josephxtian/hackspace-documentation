@@ -35,7 +35,7 @@ Inductions take place on the Myford. Once inducted, you may use any of the lathe
 
 The induction has 3 elements:
  
-1. Reading and watching the information on [this page](../../metalwork/Inductions/metal_lathe_induction.md) (about 1.5h).
+1. Reading and watching the information on [this page](../../metalwork/inductions/metal_lathe_induction.md) (about 1.5h).
 2. A brief online quiz to test your knowledge (about 15 minutes)
 3. An in-person training session where you will get to use the lathe and make a simple part (about 2h)
 

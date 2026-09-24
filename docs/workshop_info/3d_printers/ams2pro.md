@@ -7,7 +7,7 @@ title: "AMS 2 Pro"
 The Automatic Material System feeds filament to HacMan's Bambu printers.
 
 <figure markdown="1">
-  ![AMS 2 Pro loaded with spools](images/fdm-ams2pro-spools-loaded-correctly.jpg)
+  ![AMS 2 Pro loaded with spools](images/fdm_ams2pro_spools_loaded_correctly.jpg)
   <figcaption>The AMS 2 Pro feeds filament to the Bambu printers. Spools must sit correctly and rotate freely.</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Do not force oversized, warped, damaged or poorly-wound spools into the AMS. The
 Metal-filled filament is prohibited on HacMan printers.
 
 <figure markdown="1">
-  ![TPU cardboard spool labelled not for AMS](images/fdm-tpu-cardboard-spool-not-for-ams.jpg)
+  ![TPU cardboard spool labelled not for AMS](images/fdm_tpu_cardboard_spool_not_for_ams.jpg)
   <figcaption>Do not use bare cardboard spools in the AMS. Flexible TPU should only be used in the AMS if specifically marked as AMS-compatible.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ Once the filament has unloaded:
 The manufacturer guide notes that the AMS rollers can sometimes remain engaged after an error or power interruption. If the filament does not come out smoothly, stop rather than pulling hard.
 
 <figure markdown="1">
-  ![Filament end secured for storage](images/fdm-filament-end-secured-for-storage.jpg)
+  ![Filament end secured for storage](images/fdm_filament_end_secured_for_storage.jpg)
   <figcaption>Secure the free end immediately after unloading filament to prevent tangles.</figcaption>
 </figure>
 

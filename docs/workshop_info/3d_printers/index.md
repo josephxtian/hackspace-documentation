@@ -7,7 +7,7 @@ title: "FDM 3D Printing"
 HacMan provides five FDM printers for members who have completed the [self-induction](induction.md):
 
 <figure markdown="1">
-  ![HacMan FDM printer area](images/fdm-printer-area-overview.jpg)
+  ![HacMan FDM printer area](images/fdm_printer_area_overview.jpg)
   <figcaption>The HacMan FDM printer area.</figcaption>
 </figure>
 

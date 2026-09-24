@@ -11,7 +11,7 @@ HacMan printers use 1.75 mm filament and hardened nozzles.
 Hackspace filament costs **4p per gram**. Payment is made through the Snackspace tuck shop and applies to all material used, including failed and cancelled prints.
 
 <figure markdown="1">
-  ![Hackspace till close-up](images/fdm-hackspace-till-closeup.jpg)
+  ![Hackspace till close-up](images/fdm_hackspace_till_closeup.jpg)
   <figcaption>Pay for Hackspace filament through the Snackspace tuck shop.</figcaption>
 </figure>
 
@@ -44,16 +44,16 @@ ABS and ASA are restricted to the enclosed Bambu printers because they have carb
 - Keep filament dry and clean.
 
 <figure markdown="1">
-  ![AMS 2 Pro with suitable spools loaded](images/fdm-ams2pro-spools-loaded-correctly.jpg)
+  ![AMS 2 Pro with suitable spools loaded](images/fdm_ams2pro_spools_loaded_correctly.jpg)
   <figcaption>Spools in the AMS must sit correctly and rotate freely.</figcaption>
 </figure>
 
 <figure markdown="1">
-  ![TPU cardboard spool marked not for AMS](images/fdm-tpu-cardboard-spool-not-for-ams.jpg)
+  ![TPU cardboard spool marked not for AMS](images/fdm_tpu_cardboard_spool_not_for_ams.jpg)
   <figcaption>Do not place bare cardboard spools directly in the AMS. TPU must only be used in the AMS if it is specifically suitable for AMS use.</figcaption>
 </figure>
 
 <figure markdown="1">
-  ![Filament end secured in spool holes](images/fdm-filament-end-secured-for-storage.jpg)
+  ![Filament end secured in spool holes](images/fdm_filament_end_secured_for_storage.jpg)
   <figcaption>Secure the loose filament end before storing any spool.</figcaption>
 </figure>

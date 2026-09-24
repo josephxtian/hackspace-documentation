@@ -7,7 +7,7 @@ title: "Bambu Studio"
 This guide covers the settings most beginners need to prepare and send a model. It does not cover multi-colour painting, modifiers or detailed profile tuning.
 
 <figure markdown="1">
-  ![Bambu Studio Prepare view](images/fdm-bambu-studio-prepare-view-printer-plate-filaments.png)
+  ![Bambu Studio Prepare view](images/fdm_bambu_studio_prepare_view_printer_plate_filaments.png)
   <figcaption>The Prepare view shows the selected printer, plate type, project filaments, the model on the build plate and the Slice plate button.</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ Choose the HacMan profile for the physical printer you intend to use:
 ⚠ **Check:** P1S and P2S profiles are not interchangeable. Confirm the printer name again in the send dialog before starting.
 
 <figure markdown="1">
-  ![Bambu Studio Device page printer selector](images/fdm-bambu-studio-device-page-printer-selector.png)
+  ![Bambu Studio Device page printer selector](images/fdm_bambu_studio_device_page_printer_selector.png)
   <figcaption>On the Device tab, the current printer is shown on the left. Click the arrow next to the printer name to open the printer list.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Choose the HacMan profile for the physical printer you intend to use:
 Choose the plate type that is physically fitted to the printer. The slicer uses this choice to set plate temperature and other behaviour.
 
 <figure markdown="1">
-  ![Bambu Studio plate type selector](images/fdm-bambu-studio-prepare-view-printer-plate-filaments.png)
+  ![Bambu Studio plate type selector](images/fdm_bambu_studio_prepare_view_printer_plate_filaments.png)
   <figcaption>The plate type selector is shown in the Prepare view. Match this to the build plate fitted to the printer.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Synchronise again if someone changes a spool after the project was opened.
 ⚠ **Check:** Make sure Bambu Studio is connected to the intended P1S or P2S before synchronising. Otherwise you may import the filament list from the wrong printer.
 
 <figure markdown="1">
-  ![Bambu Studio Sync info prompt](images/fdm-bambu-studio-sync-nozzle-and-filaments.png)
+  ![Bambu Studio Sync info prompt](images/fdm_bambu_studio_sync_nozzle_and_filaments.png)
   <figcaption>Use Sync info to synchronise printer, nozzle and AMS information. After nozzle information is synced, continue to sync the AMS filaments.</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ Before slicing, check the material name as well as the colour. Two spools can lo
 📌 **HacMan rules:** Do not put bare cardboard spools in the AMS. ABS and ASA may only be printed on the enclosed Bambu printers. Metal-filled filament is prohibited.
 
 <figure markdown="1">
-  ![Bambu Studio Change Filament menu](images/fdm-bambu-studio-change-object-filament.png)
+  ![Bambu Studio Change Filament menu](images/fdm_bambu_studio_change_object_filament.png)
   <figcaption>Right-click an object and use Change Filament to choose which AMS slot or material that object should print with.</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ First try orienting the model to reduce unsupported areas. If support is still r
 Supports add time and filament and may mark the model. Inspect them in Preview and make sure they can be removed after printing.
 
 <figure markdown="1">
-  ![Bambu Studio support settings](images/fdm-bambu-studio-support-settings.png)
+  ![Bambu Studio support settings](images/fdm_bambu_studio_support_settings.png)
   <figcaption>Support settings are under the Support tab. Supports are used when parts of the model would otherwise print into mid-air.</figcaption>
 </figure>
 
@@ -128,12 +128,12 @@ The outer shell is made from **wall loops**. More walls usually improve general 
 - orient the part so loads do not try to split it between layers.
 
 <figure markdown="1">
-  ![Bambu Studio infill settings](images/fdm-bambu-studio-infill-settings.png)
+  ![Bambu Studio infill settings](images/fdm_bambu_studio_infill_settings.png)
   <figcaption>Infill settings are under Strength. Higher infill can make some parts stronger, but wall thickness often matters more.</figcaption>
 </figure>
 
 <figure markdown="1">
-  ![Bambu Studio wall loops settings](images/fdm-bambu-studio-wall-loops-strength-settings.png)
+  ![Bambu Studio wall loops settings](images/fdm_bambu_studio_wall_loops_strength_settings.png)
   <figcaption>Wall loops are under Strength → Walls. Increasing wall loops often improves part strength more effectively than simply increasing infill.</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ A **brim** is a thin, single-layer border attached around the model's base. It i
 Use one when the footprint is small or likely to lift. A broad, stable model normally does not need it. The brim must be removed after printing and may leave a small edge to tidy.
 
 <figure markdown="1">
-  ![Bambu Studio brim and skirt settings](images/fdm-bambu-studio-brim-skirt-settings.png)
+  ![Bambu Studio brim and skirt settings](images/fdm_bambu_studio_brim_skirt_settings.png)
   <figcaption>Brim and skirt settings are under Others → Bed adhesion. A brim can help small or narrow parts stay attached to the build plate.</figcaption>
 </figure>
 
@@ -179,7 +179,7 @@ Select **Print plate**. In the send dialog:
 If the intended printer is unavailable, out of service or already in use, cancel the send operation.
 
 <figure markdown="1">
-  ![Bambu Studio send print job dialog](images/fdm-bambu-studio-send-print-job-dialog.png)
+  ![Bambu Studio send print job dialog](images/fdm_bambu_studio_send_print_job_dialog.png)
   <figcaption>Before sending, check the printer, plate type and filament. Bambu Studio may ask you to allocate a filament here and will only offer compatible material types for the model.</figcaption>
 </figure>
 

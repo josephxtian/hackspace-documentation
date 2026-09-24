@@ -32,7 +32,7 @@ Stay beside the printer until the first layer has completed successfully. After 
 - Flex it gently and point it away from people.
 
 <figure markdown="1">
-  ![Removing the flexible build plate](images/fdm-build-plate-lift-off.jpg)
+  ![Removing the flexible build plate](images/fdm_build_plate_lift_off.jpg)
   <figcaption>Remove the flexible build plate before cleaning it or flexing it.</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Stay beside the printer until the first layer has completed successfully. After 
 - Secure the loose end of every removed spool before storage.
 
 <figure markdown="1">
-  ![Filament end secured in spool holes](images/fdm-filament-end-secured-for-storage.jpg)
+  ![Filament end secured in spool holes](images/fdm_filament_end_secured_for_storage.jpg)
   <figcaption>Secure the free end of filament before storage to prevent tangles.</figcaption>
 </figure>
 
@@ -57,6 +57,6 @@ Stay beside the printer until the first layer has completed successfully. After 
 Remove your print and waste, return tools, leave the plate clean and correctly fitted, secure filament ends, pay for Hackspace filament and report faults. Leave everything ready for the next member.
 
 <figure markdown="1">
-  ![Snackspace till area](images/fdm-snackspace-till-area.jpg)
+  ![Snackspace till area](images/fdm_snackspace_till_area.jpg)
   <figcaption>Pay for Hackspace filament through the Snackspace tuck shop.</figcaption>
 </figure>
