@@ -11,7 +11,7 @@ There are a few large cuboid disposal delivery bags around the space. These have
 The space does not provide the facilities to dispose of metal or wood and gets fined if these are put in the bins. The only exception to this is bagged sawdust. Please take your offcuts home with you.
 
 ## Bin Store Location
-To get to the bins, leave through the front door and turn left. Take a left down the driveway, and there is a door halfway down the building.
+To get to the bins, leave through the front door and turn left. Take a left down the driveway to the side of the building, and there is a door halfway down the building.
 
 The bin store is secured with a code lock, the **passcode** can be found on a notice on the inside of our front doors.
 
