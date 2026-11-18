@@ -5,7 +5,7 @@ title: "Warco - Tools"
 # Warco - Tools
 
 ## Picture
-![Warco Tools](https://docs.hacman.org.uk/Workshop_Areas/Metalwork/Equipment/Lathes/warco - tools.png)
+![Warco Tools](../lathes/warco_tools.png)
 
 ## Tools
 | Part Number      | Description        | Takes Insert      | Known Insert Part/Numbers |

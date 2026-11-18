@@ -68,7 +68,7 @@ If you are using a no lone working tool, you must find a 'safety partner', and i
 If at any point your safety partner leaves, they must inform you and you will either need to find another, or stop work if there is no one else in the space.
 
 ## Emergency Procedure
-Our emergency procedure can be found [here](../04_procedures/emergency_procedure.md).
+Our emergency procedure can be found [here](../general_info/emergency_procedure.md).
 
 ## Negligence
 Manchester Hackspace is a place of learning, we will always seek to educate rather than punish. However we have a zero tolerence to willful ignorance of safety.

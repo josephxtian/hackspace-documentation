@@ -46,7 +46,7 @@ Manchester Hackspace, Hackspace Manchester, HACMan, Hackspace and Hacman are all
 
 3.1.5 You have familiarised yourself with any other applicable policies and documents governing the use of Manchester Hackspace and agree to them.
 
-3.1.6 You have familiarised yourself with the [Emergency Procedure](../04_procedures/emergency_procedure.md) and understand what to do in the event of an emergency.
+3.1.6 You have familiarised yourself with the [Emergency Procedure](../general_info/emergency_procedure.md) and understand what to do in the event of an emergency.
 
 ### 4. Expectations of Members
 
