@@ -4,7 +4,7 @@ title: "Prusa Mk4"
 
 # Using the Prusa MK4
 
-General rules and preparation are covered in [Getting Started](getting_started.md). This page contains Prusa-specific operation. Network addresses and keys are kept on [Connect Your Computer to the Printers](connecting.md).
+General rules and preparation are covered in [Getting Started](getting_started.md). This page contains Prusa-specific operation. For network addresses and illustrated instructions to read the current PrusaLink key, see [Connect Your Computer to the Printers](connecting.md).
 
 <figure markdown="1">
   ![HacMan Prusa MK4 printer](images/fdm_prusa_mk4_front.jpg)
